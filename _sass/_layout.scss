@@ -157,3 +157,11 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+.toc .waypoint {
+  color: black;
+}
+
+.toc .waypoint::before {
+  content: "> ";
+}

@@ -46,6 +46,23 @@
       });
     </script>
 
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script>
+      $('h2, h3, h4').each(function() {
+        if (!this.id) {
+          return;
+        }
+        var elem = this.id;
+        var wp = new Waypoint({
+          element: $('#' + elem),
+          handler: function() {
+            $('#toc a').removeClass('waypoint');
+            $('a[href=#' + elem + ']').toggleClass('waypoint');
+          }
+        });
+      });
+    </script>
+
   </body>
 
 </html>
