@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        min-width: 1200px;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+<map name="GraffleExport">
+	<area shape=rect coords="3033,1870,3288,2012" href="All.html">
+	<area shape=rect coords="119,1054,374,1196" href="WalletSendAction.html">
+	<area shape=rect coords="1601,640,1703,700" href="Send%20active.html">
+	<area shape=rect coords="2368,640,2602,700" href="Invoice%20active.html">
+	<area shape=rect coords="2358,700,2613,842" href="Invoice%20active.html">
+	<area shape=rect coords="1525,700,1780,842" href="Send%20active.html">
+</map>
+<img border=0 src="WalletSendStore.png" usemap="#GraffleExport">
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.rwdImageMaps.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('img[usemap]').rwdImageMaps();
+  });
+</script>
+</body>
+</html>

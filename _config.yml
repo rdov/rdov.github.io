@@ -1,0 +1,15 @@
+# Site settings
+title: Deglet Developer Documentation
+description: # this means to ignore newlines until "baseurl:"
+  Deglet Developer Documentation is licensed under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br/>
+  © 2015 Deginner.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://g-p-g.bitbucket.org/" # the base hostname & protocol for your site
+
+highlighter: pygments
+permalink: /:title
+
+# Build settings
+markdown: kramdown
+exclude: ['build_scripts', 'contributors.txt']

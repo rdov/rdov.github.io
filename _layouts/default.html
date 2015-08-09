@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="container">
+        {{ content }}
+
+        <hr/>
+        <h2>Pages</h2>
+        <ul class="post-list">
+          {% assign this_title = page.title %}
+          {% assign sorted_pages = site.pages | sort: "weight" %}
+          {% for page in sorted_pages %}
+            {% if page.hidelist != true %}
+            <li>
+              {% if page.title != this_title %}
+              <a class="post-link" href="{{ page.url }}">{{ page.title }}</a>
+              {% else %}
+              → {{ page.title }}
+              {% endif %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div id="toc" class="toc"></div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/js/toc.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(window).bind('scroll', function () {
+          $('#toc').toggleClass('toc-fixed', $(window).scrollTop() > 132);
+        });
+        $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
+      });
+    </script>
+
+  </body>
+
+</html>

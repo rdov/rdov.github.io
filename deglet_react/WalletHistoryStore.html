@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        min-width: 1200px;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+<map name="GraffleExport">
+	<area shape=rect coords="119,351,374,493" href="LoginAction.html">
+	<area shape=rect coords="2477,2040,2732,2182" href="All.html">
+	<area shape=rect coords="2911,904,3197,964" href="History%20active.html">
+	<area shape=rect coords="2928,963,3183,1105" href="History%20active.html">
+	<area shape=rect coords="119,878,374,1020" href="WalletAction.html">
+</map>
+<img border=0 src="WalletHistoryStore.png" usemap="#GraffleExport">
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.rwdImageMaps.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('img[usemap]').rwdImageMaps();
+  });
+</script>
+</body>
+</html>
