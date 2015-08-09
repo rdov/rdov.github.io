@@ -56,7 +56,7 @@ and then edit `app/locale/messages.js` to:
 3. Update the `order` list to include the new locale.
 
 
-#### CSS
+#### With CSS
 
 [Sass](http://sass-lang.com/) is used very lightly to produce the resulting
 CSS files. If you're contributing to modifications here, stick to the SCSS
@@ -72,7 +72,7 @@ to accept it. If the change is introducing newer and fancy styling then it
 might take longer.
 
 
-#### Templates
+#### With Templates
 
 The React components used here have their
 [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html)
@@ -87,7 +87,7 @@ modify the layout entirely without needing to get into the component's
 source code or other areas.
 
 
-#### Components, Actions, Stores
+#### With Components, Actions, Stores
 
 If you want to contribute to other aspects, including behavior of existing
 components, actions, or stores, then it might be helpful to check the following

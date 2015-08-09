@@ -148,6 +148,10 @@ pre > code {
   padding: 0;
 }
 
+p code {
+  word-break: break-word;
+}
+
 .container {
   max-width: $max-width;
   margin: 0 auto;
