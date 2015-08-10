@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -17,7 +17,7 @@
           {% assign this_title = page.title %}
           {% assign sorted_pages = site.pages | sort: "weight" %}
           {% for page in sorted_pages %}
-            {% if page.hidelist != true %}
+            {% if page.hidelist != true and page.title %}
             <li>
               {% if page.title != this_title %}
               <a class="post-link" href="{{ page.url }}">{{ page.title }}</a>
