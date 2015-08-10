@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tutorial&#58; Creating a brand new page
+comments: true
 permalink: /tutorial/newpage.html
 hidenav: true
 weight: 2
