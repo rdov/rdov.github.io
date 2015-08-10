@@ -18,6 +18,8 @@ packages, forked as necessary to match the features Deglet is after.
 Its source code and issue tracker are available at
 <https://bitbucket.org/deginner/deglet>.
 
+A testnet instance is available at [deglet.xyz](http://deglet.xyz).
+
 
 ### Contributing to
 
