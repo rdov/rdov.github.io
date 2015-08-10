@@ -13,11 +13,13 @@
           {{ content }}
         </article>
 
+        {% if page.hidejump != true %}
         <div class="top-pages">
           <hr/>
           <h2>Pages</h2>
           {% include page_list.html %}
         </div>
+        {% endif %}
 
         {% if page.comments %}
         <hr/>
