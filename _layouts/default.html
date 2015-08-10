@@ -26,7 +26,7 @@
       <div class="left-menu">
         <div id="toc" class="toc"></div>
         <div class="top-pages">
-          <hr/>
+          <hr id="hr-toc" />
           <i>Pages</i>
           {% include page_list.html %}
         </div>
@@ -47,13 +47,16 @@
         });
 
         $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
+        var elements = $('h2, h3, h4');
+        var elemCount = 0;
 
         /* Set up way points. */
-        var elements = $('h2, h3, h4');
         elements.each(function() {
           if (!this.id) {
             return;
           }
+          elemCount++;
+
           var elem = this.id;
           var wp = new Waypoint({
             element: $('#' + elem),
@@ -64,6 +67,10 @@
             offset: 125
           });
         });
+
+        if (elemCount < 2) {
+          $('#hr-toc').hide();
+        }
 
       });
     </script>

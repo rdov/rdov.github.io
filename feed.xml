@@ -11,6 +11,16 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for page in site.pages %}
+      {% if page.title and page.category != 'aggregator' %}
+      <item>
+        <title>{{ page.title | xml_escape }}</title>
+        <description>{{ page.content | xml_escape }}</description>
+        <link>{{ page.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ page.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      </item>
+      {% endif %}
+    {% endfor %}
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>

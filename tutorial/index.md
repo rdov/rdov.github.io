@@ -3,6 +3,7 @@ layout: default
 title: Tutorials
 permalink: /tutorial/
 weight: 2
+category: aggregator
 ---
 
 ## {{ page.title }}
