@@ -13,6 +13,7 @@
         </svg>
       </a>
 
+      {% if page.hidejump != true %}
       <div class="trigger">
         {% assign sorted_pages = site.pages | sort: "weight" %}
         {% for page in sorted_pages %}
@@ -21,6 +22,7 @@
           {% endif %}
         {% endfor %}
       </div>
+      {% endif %}
     </nav>
 
   </div>
