@@ -1,17 +1,14 @@
 ---
-layout: default
-title: Tutorial&#58; Creating a brand new page
-comments: true
+layout: post
+title: Creating a brand new page
 permalink: /tutorial/newpage.html
-hidenav: true
-weight: 2
 ---
-
-## {{ page.title }}
 
 Requirements:
 : Local Deglet instance.
 
+
+<!-- excerpt.start -->
 
 In this tutorial we're going to create a new top page named "About" for
 Deglet. This will involve creating:
@@ -22,6 +19,8 @@ Deglet. This will involve creating:
 * A new entry at `app/src/constant/AppLinks.js` so a link to this page
   gets displayed on the top bar;
 * New keys in existing locales to deal with the new text introduced.
+
+<!-- excerpt.end -->
 
 
 ### Creating the new component
