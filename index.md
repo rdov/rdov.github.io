@@ -19,9 +19,9 @@ Its source code and issue tracker are available at
 <https://bitbucket.org/deginner/deglet>.
 
 
-### Contributing
+### Contributing to
 
-#### With existing transalations
+#### Existing transalations
 
 In order to help with translations, use the service at
 [... TODO upload to some service like crowdin](http://example.com>)
@@ -32,12 +32,12 @@ new to it please check <http://formatjs.io/guides/message-syntax/>
 for a quick introduction and examples.
 
 
-#### With issues, this documentation, and others
+#### Issues, this documentation, and others
 
 * For issues with Deglet, please report them at
   <https://bitbucket.org/deginner/deglet/issues> in case
   the problem hasn't been reported before.
-* Submit a pull request to improve this documentation:
+* Improve this documentation by submitting a pull request at
   <https://bitbucket.org/deginner/deglet-doc/pull-requests/>.
 
 Other ways to contribute to Deglet are described under

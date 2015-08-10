@@ -34,9 +34,9 @@ Remember to submit your modifications as a pull request at
 <https://bitbucket.org/deginner/deglet/pull-requests/>.
 
 
-### Contributing
+### Contributing to
 
-#### With new translations
+#### New translations
 
 If you're modifying templates to include new text, follow the next guidelines
 to get your modifications into Deglet:
@@ -58,7 +58,7 @@ and then edit `app/locale/messages.js` to:
 3. Update the `order` list to include the new locale.
 
 
-#### With CSS
+#### CSS
 
 [Sass](http://sass-lang.com/) is used very lightly to produce the resulting
 CSS files. If you're contributing to modifications here, stick to the SCSS
@@ -74,7 +74,7 @@ to accept it. If the change is introducing newer and fancy styling then it
 might take longer.
 
 
-#### With Templates
+#### Templates
 
 The React components used here have their
 [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html)
@@ -89,7 +89,7 @@ modify the layout entirely without needing to get into the component's
 source code or other areas.
 
 
-#### With Components, Actions, Stores
+#### Components, Actions, Stores
 
 If you want to contribute to other aspects, including behavior of existing
 components, actions, or stores, then it might be helpful to check the following
