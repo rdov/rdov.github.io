@@ -109,6 +109,11 @@
 
     @include media-query($content-width) {
         padding: 0;
+
+        figure {
+          margin-left: 0;
+          margin-right: 0;
+        }
     }
 }
 

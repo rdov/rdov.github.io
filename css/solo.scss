@@ -148,7 +148,8 @@ pre > code {
   padding: 0;
 }
 
-p code {
+p code,
+li code {
   word-break: break-word;
 }
 
