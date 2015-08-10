@@ -162,7 +162,7 @@ If you're using other locales, add the same keys but now with proper
 translations. At this point you should be able to load the new page.
 
 
-## Result
+### Result
 
 | Before <br/> (mobile menu) | ![before](./img/before_about_mobile.png){:width="420px"} |
 | After <br/> (mobile menu) | ![after](./img/after_about_mobile.png){:width="420px"} |
