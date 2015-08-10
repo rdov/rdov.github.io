@@ -11,23 +11,25 @@
       <div class="container">
         {{ content }}
 
-        <hr/>
-        <h2>Pages</h2>
-        <ul class="post-list">
-          {% assign this_title = page.title %}
-          {% assign sorted_pages = site.pages | sort: "weight" %}
-          {% for page in sorted_pages %}
-            {% if page.hidelist != true and page.title %}
-            <li>
-              {% if page.title != this_title %}
-              <a class="post-link" href="{{ page.url }}">{{ page.title }}</a>
-              {% else %}
-              → {{ page.title }}
+        <div class="top-pages">
+          <hr/>
+          <h2>Pages</h2>
+          <ul class="post-list">
+            {% assign this_title = page.title %}
+            {% assign sorted_pages = site.pages | sort: "weight" %}
+            {% for page in sorted_pages %}
+              {% if page.hidelist != true and page.title %}
+              <li>
+                {% if page.title != this_title %}
+                <a class="post-link" href="{{ page.url }}">{{ page.title }}</a>
+                {% else %}
+                → {{ page.title }}
+                {% endif %}
+              </li>
               {% endif %}
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+            {% endfor %}
+          </ul>
+        </div>
 
         {% if page.comments %}
         <hr/>

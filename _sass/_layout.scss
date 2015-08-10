@@ -95,7 +95,7 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     opacity: 0.65;
-    font-size: 90%;
+    font-size: 85%;
     text-align: right;
 }
 
@@ -200,4 +200,15 @@
 
 .toc .waypoint::before {
   content: "> ";
+}
+
+
+@media print {
+  .toc {
+    display: none !important;
+  }
+
+  .top-pages {
+    display: none;
+  }
 }
