@@ -42,6 +42,7 @@
     }
 
     @include media-query($on-palm) {
+        z-index: 1;
         position: absolute;
         top: 9px;
         right: 30px;
