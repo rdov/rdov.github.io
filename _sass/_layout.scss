@@ -141,24 +141,34 @@
 }
 
 
-.toc {
+.left-menu {
   position: absolute;
-  font-size: 90%;
+  font-size: 85%;
   max-width: 13rem;
   top: 4rem;
   left: 1rem;
-  opacity: 0.4;
+  opacity: 0.6;
+}
 
-  @include media-query(1250px) {
+.container .top-pages {
+  display: none;
+}
+
+@include media-query(1250px) {
+  .left-menu {
     display: none !important;
+  }
+
+  .container .top-pages {
+    display: block;
   }
 }
 
-.toc:hover {
+.left-menu:hover {
   opacity: 1;
 }
 
-.toc-fixed {
+.left-menu-fixed {
   position: fixed;
   top: 0.5rem;
 }
@@ -204,7 +214,7 @@
 
 
 @media print {
-  .toc {
+  .left-menu {
     display: none !important;
   }
 

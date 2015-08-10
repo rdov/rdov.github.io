@@ -14,69 +14,57 @@
         <div class="top-pages">
           <hr/>
           <h2>Pages</h2>
-          <ul class="post-list">
-            {% assign this_title = page.title %}
-            {% assign sorted_pages = site.pages | sort: "weight" %}
-            {% for page in sorted_pages %}
-              {% if page.hidelist != true and page.title %}
-              <li>
-                {% if page.title != this_title %}
-                <a class="post-link" href="{{ page.url }}">{{ page.title }}</a>
-                {% else %}
-                → {{ page.title }}
-                {% endif %}
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+          {% include page_list.html %}
         </div>
 
         {% if page.comments %}
         <hr/>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-          var disqus_shortname = 'degletdoc';
-          (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-        </script>
+        {% include comments.html %}
         {% endif %}
       </div>
 
-      <div id="toc" class="toc"></div>
+      <div class="left-menu">
+        <div id="toc" class="toc"></div>
+        <div class="top-pages">
+          <hr/>
+          <i>Pages</i>
+          {% include page_list.html %}
+        </div>
+      </div>
     </div>
 
     {% include footer.html %}
 
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/toc.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+
     <script type="text/javascript">
       $(document).ready(function() {
-        $(window).bind('scroll', function () {
-          $('#toc').toggleClass('toc-fixed', $(window).scrollTop() > 132);
-        });
-        $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
-      });
-    </script>
 
-    <script src="/js/jquery.waypoints.min.js"></script>
-    <script>
-      var elements = $('h2, h3, h4');
-      elements.each(function() {
-        if (!this.id) {
-          return;
-        }
-        var elem = this.id;
-        var wp = new Waypoint({
-          element: $('#' + elem),
-          handler: function() {
-            $('#toc a').removeClass('waypoint');
-            $('#toc a[href=#' + elem + ']').toggleClass('waypoint');
-          },
-          offset: 125
+        $(window).bind('scroll', function () {
+          $('.left-menu').toggleClass('left-menu-fixed', $(window).scrollTop() > 132);
         });
+
+        $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
+
+        /* Set up way points. */
+        var elements = $('h2, h3, h4');
+        elements.each(function() {
+          if (!this.id) {
+            return;
+          }
+          var elem = this.id;
+          var wp = new Waypoint({
+            element: $('#' + elem),
+            handler: function() {
+              $('#toc a').removeClass('waypoint');
+              $('#toc a[href=#' + elem + ']').toggleClass('waypoint');
+            },
+            offset: 125
+          });
+        });
+
       });
     </script>
 
