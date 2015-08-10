@@ -19,7 +19,9 @@ To get a local copy running, first run
 (TODO: make this a public repository) and follow the instructions present
 in the README file. Then edit `app/src/constant/ServerConstants.js` to use
 `deglet.xyz` as the hostname for every entry so you don't need to run a server
-component yourself. NOTE: Do not change the port numbers specified, and
+component yourself.
+
+> Do not change the port numbers in `ServerConstants.js`, and
 remember to run ``make`` again after saving the modifications.
 
 If you're doing many modifications, small or not, it's recommended to run
@@ -91,7 +93,8 @@ source code or other areas.
 
 If you want to contribute to other aspects, including behavior of existing
 components, actions, or stores, then it might be helpful to check the following
-set of diagrams to get a grasp about the relationships present.
-
-The diagrams are available at
+set of diagrams to get a grasp about the relationships present:
 <a href="/deglet_react/All.html" target="_blank">/deglect_react/All.html</a>.
+
+If you prefer something very hands-on, check the [tutorial for
+creating a brand new page]({{ "/tutorial/newpage.html" | prepend: site.baseurl }}).

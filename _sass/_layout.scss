@@ -121,6 +121,21 @@
     list-style: none;
 }
 
+.page-content dl {
+    padding: 0 0.5rem;
+    border-bottom: 1px solid $grey-color-light;
+    background: #F9F9F9;
+}
+
+.page-content dt {
+    color: gray;
+}
+
+.page-content dd {
+    margin-left: 0;
+}
+
+
 .toc {
   position: absolute;
   font-size: 90%;
@@ -159,7 +174,22 @@
 }
 
 .toc .waypoint {
+  white-space: normal;
   color: black;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+  -webkit-animation: animateBG 0.25s ease-in 1;
+  animation: animateBG 0.25s ease-in 1;
+}
+
+@keyframes animateBG {
+  50% { background: yellow; }
+  100% { background: transparent; }
+}
+
+@-webkit-keyframes animateBG {
+  50% { background: yellow; }
+  100% { background: transparent; }
 }
 
 .toc .waypoint::before {

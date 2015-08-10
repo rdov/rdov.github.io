@@ -48,7 +48,8 @@
 
     <script src="/js/jquery.waypoints.min.js"></script>
     <script>
-      $('h2, h3, h4').each(function() {
+      var elements = $('h2, h3, h4');
+      elements.each(function() {
         if (!this.id) {
           return;
         }
@@ -57,8 +58,9 @@
           element: $('#' + elem),
           handler: function() {
             $('#toc a').removeClass('waypoint');
-            $('a[href=#' + elem + ']').toggleClass('waypoint');
-          }
+            $('#toc a[href=#' + elem + ']').toggleClass('waypoint');
+          },
+          offset: 125
         });
       });
     </script>
