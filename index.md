@@ -25,8 +25,8 @@ A testnet instance is available at [deglet.xyz](http://deglet.xyz).
 
 #### Existing transalations
 
-In order to help with translations, use the service at
-[... TODO upload to some service like crowdin](http://example.com>)
+In order to help with translations, visit the
+[Deglet project on Crowdin](https://crowdin.com/project/deglet)
 to make your contributions.
 
 The text to be translated uses the ICU message syntax, in case you're
