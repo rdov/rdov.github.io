@@ -40,7 +40,7 @@ package, and its CSS file is loaded from `app/style/external.scss`.
 
 <figure>
 <figcaption>app/template/section/About.jsx</figcaption>
-{% highlight js %}
+{% highlight jsx %}
 "use strict";
 
 var React = require('react');
@@ -68,7 +68,7 @@ Next, we need a component that loads the template created above.
 
 <figure>
 <figcaption>app/src/component/section/About.react.js</figcaption>
-{% highlight js %}
+{% highlight jsx %}
 "use strict";
 
 var React = require('react');
@@ -103,7 +103,7 @@ make sure an user is present before proceeding.
 
 First we import the new component:
 
-{% highlight js %}
+{% highlight javascript %}
 // Put the following line before `var routes = ...`
 var About = require('./src/component/section/About.react');
 {% endhighlight %}
@@ -112,7 +112,7 @@ Then add a new route for it by adding the line show next right before the
 line for the `NotFoundRoute`, i.e.
 `<Router.NotFoundRoute handler={NotFound} />`:
 
-{% highlight js %}
+{% highlight jsx %}
 <Route name="about" handler={About} />
 {% endhighlight %}
 
@@ -125,7 +125,7 @@ this page yet.
 Patch `app/src/constant/AppLinks.js` such that the following contents
 are included right before the entry that starts with `link: "logout"`:
 
-{% highlight js %}
+{% highlight javascript %}
 {
   link: "about",
   i18n: "link.about",
@@ -151,7 +151,7 @@ Since this is a new page, the section `"about"` does not exist yet.
 Create it above the `"page_notfound"` section such that it looks like
 this:
 
-{% highlight js %}
+{% highlight javascript %}
 "about": {
   "title": "Title for the about page"
 },
