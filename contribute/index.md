@@ -2,7 +2,7 @@
 layout: default
 title: Advanced contributions
 permalink: /contribute/
-weight: 1
+weight: 2
 ---
 
 ## {{ page.title }}
@@ -16,10 +16,10 @@ To get a local copy running, first run
 
     git clone git@bitbucket.org:deginner/deglet.git
 
-(TODO: make this a public repository) and follow the instructions present
-in the README file. Then edit `app/src/constant/ServerConstants.js` to use
-`deglet.xyz` as the hostname for every entry so you don't need to run a server
-component yourself.
+and follow the instructions present in the README file.
+Then edit `app/src/constant/ServerConstants.js` to use `deglet.xyz` as the
+hostname for every entry so you don't need to run a server component
+yourself.
 
 > Do not change the port numbers in `ServerConstants.js`, and
 remember to run ``make`` again after saving the modifications.
@@ -96,5 +96,5 @@ components, actions, or stores, then it might be helpful to check the following
 set of diagrams to get a grasp about the relationships present:
 <a href="/deglet_react/All.html" target="_blank">/deglect_react/All.html</a>.
 
-If you prefer something very hands-on, check the [tutorial for
-creating a brand new page]({{ "/tutorial/newpage.html" | prepend: site.baseurl }}).
+If you prefer something very hands-on, check the
+[tutorials page]({{ "/tutorial" | prepend: site.baseurl }}).

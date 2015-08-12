@@ -1,0 +1,43 @@
+{% if page.highlight %}
+<script src="/js/prism.js"></script>
+{% endif %}
+
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $(window).bind('scroll', function () {
+      $('.left-menu').toggleClass('left-menu-fixed', $(window).scrollTop() > 132);
+    });
+
+    $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
+    var elements = $('h2, h3, h4');
+    var elemCount = 0;
+
+    /* Set up way points. */
+    elements.each(function() {
+      if (!this.id) {
+        return;
+      }
+      elemCount++;
+
+      var elem = this.id;
+      var wp = new Waypoint({
+        element: $('#' + elem),
+        handler: function() {
+          $('#toc a').removeClass('waypoint');
+          $('#toc a[href=#' + elem + ']').toggleClass('waypoint');
+        },
+        offset: 125
+      });
+    });
+
+    if (elemCount < 2) {
+      $('#hr-toc').hide();
+    }
+
+  });
+</script>

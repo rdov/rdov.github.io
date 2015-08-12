@@ -1,3 +1,6 @@
+---
+weight: 0
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,42 +11,31 @@
     {% include header.html %}
 
     <div class="page-content">
+
       <div class="container">
         <article>
           {{ content }}
         </article>
 
-        {% if page.hidejump != true %}
-        <div class="top-pages">
+        <div>
           <hr/>
           <h2>{{ site.toc_title }}</h2>
           {% include page_list.html %}
         </div>
-        {% endif %}
-
-        {% if page.comments %}
-        <hr/>
-        <h3 id="bottom-comments">Comments</h3>
-        {% include comments.html %}
-        {% endif %}
       </div>
 
-      {% if page.hidejump != true %}
       <div class="left-menu">
-        <div id="toc" class="toc left-menu-wrapper"></div>
         <div class="top-pages">
-          <hr id="hr-toc" />
           <div class="left-menu-wrapper">
             <i>{{ site.toc_title }}</i>
             {% include page_list.html %}
           </div>
         </div>
       </div>
-      {% endif %}
+
     </div>
 
     {% include footer.html %}
-    {% include js.html %}
 
   </body>
 

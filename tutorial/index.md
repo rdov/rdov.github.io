@@ -2,7 +2,7 @@
 layout: default
 title: Tutorials
 permalink: /tutorial/
-weight: 2
+weight: 3
 category: aggregator
 ---
 

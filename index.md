@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Home
-hidenav: true
-weight: 0
+layout: index
+title: Index
 ---
 
 
@@ -16,31 +14,8 @@ using [React](http://facebook.github.io/react/),
 smaller libraries. The Bitcoin pieces are mostly from Bitcore and related
 packages, forked as necessary to match the features Deglet is after.
 Its source code and issue tracker are available at
-<https://bitbucket.org/deginner/deglet>.
+<https://bitbucket.org/deginner/deglet>, and a testnet instance is
+present at [deglet.xyz](http://deglet.xyz).
 
-A testnet instance is available at [deglet.xyz](http://deglet.xyz).
-
-
-### Contributing to
-
-#### Existing transalations
-
-In order to help with translations, visit the
-[Deglet project on Crowdin](https://crowdin.com/project/deglet)
-to make your contributions.
-
-The text to be translated uses the ICU message syntax, in case you're
-new to it please check <http://formatjs.io/guides/message-syntax/>
-for a quick introduction and examples.
-
-
-#### Issues, this documentation, and others
-
-* For issues with Deglet, please report them at
-  <https://bitbucket.org/deginner/deglet/issues> in case
-  the problem hasn't been reported before.
-* Improve this documentation by submitting a pull request at
-  <https://bitbucket.org/deginner/deglet-doc/pull-requests/>.
-
-Other ways to contribute to Deglet are described under
-[Advanced contributions]({{ "/contribute" | prepend: site.baseurl }}).
+Welcome to the developer documentation! Follow one of the pages listed
+below to read more.
