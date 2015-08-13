@@ -7,22 +7,15 @@ weight: 2
 
 ## {{ page.title }}
 
-It's necessary to have a local copy of Deglet in order to check if
-changes don't break the existing code. Even if you intend to contribute with
+For code contributions it's necessary to have a local copy of Deglet in
+order to verify your changes. Even if you intend to contribute with
 existing translations, it's a good idea to have a local copy because you'll
 be able to check how the new text looks like.
 
-To get a local copy running, first run
+To get a local copy running, clone the repository and follow the
+instructions described in the README file:
 
     git clone git@bitbucket.org:deginner/deglet.git
-
-and follow the instructions present in the README file.
-Then edit `app/src/constant/ServerConstants.js` to use `deglet.xyz` as the
-hostname for every entry so you don't need to run a server component
-yourself.
-
-> Do not change the port numbers in `ServerConstants.js`, and
-remember to run ``make`` again after saving the modifications.
 
 If you're doing many modifications, small or not, it's recommended to run
 `npm start` as it will watch for modifications and rebuild Deglet as
