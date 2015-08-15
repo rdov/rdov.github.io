@@ -89,5 +89,5 @@ components, actions, or stores, then it might be helpful to check the following
 set of diagrams to get a grasp about the relationships present:
 <a href="/deglet_react/All.html" target="_blank">/deglect_react/All.html</a>.
 
-If you prefer something very hands-on, check the
-[tutorials page]({{ "/tutorial" | prepend: site.baseurl }}).
+For a more practical introduction to Deglet, check the
+[guides available]({{ "/guide" | prepend: site.baseurl }}).

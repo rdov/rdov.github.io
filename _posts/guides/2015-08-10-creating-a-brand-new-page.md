@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a brand new page
-permalink: /tutorial/newpage.html
+permalink: /guide/newpage.html
 ---
 
 Requirements:
@@ -10,12 +10,12 @@ Requirements:
 
 <!-- excerpt.start -->
 
-In this tutorial we're going to create a new top page named "About" for
+In this guide we're going to create a new top page named "About" for
 Deglet. This will involve creating:
 
 * A new component at `app/src/component/section/About.react.js` together
   with its new template at `app/template/section/About.jsx`;
-* A new route at `app/app.js` so it's possible to access the component;
+* A new route at `app/routes.jsx` so it's possible to access the component;
 * A new entry at `app/src/constant/AppLinks.js` so a link to this page
   gets displayed on the top bar;
 * New keys in existing locales to deal with the new text introduced.
@@ -95,8 +95,8 @@ render the template defined earlier. Note that we are able to use the
 
 ### Creating a new route
 
-The file `app/app.js` defines the page hierarchy by defining how the
-different components are routed. In this tutorial we're creating a
+The file `app/routes.jsx` defines the page hierarchy by defining how the
+different components are routed. In this guide we're creating a
 public page, named "About", therefore we need to place it outside the
 `Account` hierarchy. That is because routes placed under `Account` will
 make sure an user is present before proceeding.

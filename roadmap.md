@@ -74,7 +74,7 @@ Steps to Branding:
    access it) or public.
 2. Change existing pages by modifying the files under `deglet/app/style`
    and `deglet/app/template`.
-3. If you need to create a new page, consult the tutorial about [creating new pages]({% post_url tutorials/2015-08-10-creating-a-brand-new-page %}).
+3. If you need to create a new page, consult the guide about [creating new pages]({% post_url guides/2015-08-10-creating-a-brand-new-page %}).
 4. From time to time, merge changes from Deglet into your custom fork.
    <http://stackoverflow.com/a/9946742> provides a description of the
    steps required.

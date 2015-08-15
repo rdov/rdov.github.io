@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tutorials
-permalink: /tutorial/
+title: Guides
+permalink: /guide/
 weight: 3
 category: aggregator
 ---
