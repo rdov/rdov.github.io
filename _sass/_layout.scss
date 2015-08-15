@@ -78,11 +78,35 @@
 
 
 .left-menu {
-  position: absolute;
-  font-size: 85%;
   max-width: 13rem;
   top: 4rem;
   left: 1rem;
+}
+
+.improve {
+  top: 0.2rem;
+  right: 1rem;
+}
+
+@include media-query($content-width) {
+  .improve-text {
+    display: none;
+  }
+
+  .improve {
+    top: 0.15rem;
+    right: 0;
+  }
+}
+
+.improve a {
+  color: gray;
+}
+
+.left-menu,
+.improve {
+  position: absolute;
+  font-size: 85%;
   opacity: 0.6;
   transition: opacity 0.25s;
 }
@@ -101,7 +125,8 @@
   }
 }
 
-.left-menu:hover {
+.left-menu:hover,
+.improve:hover {
   opacity: 1;
 }
 
@@ -155,10 +180,8 @@
     display: none !important;
   }
 
-  .top-pages {
-    display: none;
-  }
-
+  .top-pages,
+  .improve,
   #disqus_thread {
     display: none;
   }
