@@ -84,18 +84,22 @@
 }
 
 .improve {
-  top: 0.2rem;
-  right: 1rem;
+  top: -1.7rem;
+  left: 1rem;
 }
 
-@include media-query($content-width) {
-  .improve-text {
-    display: none;
-  }
+.improve::after {
+  content: "Edit this page";
+}
 
+@media (min-width: $content-width) {
   .improve {
     top: 0.15rem;
-    right: 0;
+    left: -0.25rem;
+  }
+
+  .improve::after {
+    content: "";
   }
 }
 
@@ -106,9 +110,9 @@
 .left-menu,
 .improve {
   position: absolute;
-  font-size: 85%;
   opacity: 0.6;
   transition: opacity 0.25s;
+  font-size: 85%;
 }
 
 .container .top-pages {
@@ -181,8 +185,7 @@
   }
 
   .top-pages,
-  .improve,
-  #disqus_thread {
+  .improve {
     display: none;
   }
 }

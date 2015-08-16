@@ -25,8 +25,10 @@
 
         {% if page.comments %}
         <hr/>
-        <h3 id="bottom-comments">Comments</h3>
-        {% include comments.html %}
+        <div class="page-comments">
+          <h3 id="bottom-comments">Comments</h3>
+          {% include comments.html %}
+        </div>
         {% endif %}
       </div>
 
