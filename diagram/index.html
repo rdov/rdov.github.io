@@ -6,11 +6,11 @@ weight: 3
 
     <div>
       <div class="control">
-        <button onclick="toggleRouting()">Toggle auto-routing</button>
-
         <label for="scale">Scale</label>
         <input type="range" min="0.2" max="1" step="0.05" value="0.6" name="scale" oninput="setScale()" />
         <em id="scaleVal"></em>
+
+        <button onclick="toggleRouting()">Toggle auto-routing</button>
       </div>
       <div id="paper"></div>
     </div>
@@ -30,6 +30,7 @@ weight: 3
       var routing = true;
 
       function setup() {
+        $('.control button').css('visibility', 'hidden');
         graph = new joint.dia.Graph;
         paper = new joint.dia.Paper($.extend({}, {
           el: $('#paper'),
@@ -82,6 +83,9 @@ weight: 3
             if (name === active) {
               /* Go back to 'main'. */
               name = 'all';
+              $('.control button').css('visibility', 'hidden');
+            } else {
+              $('.control button').css('visibility', 'visible');
             }
             active = name;
             diagram.clearTemp();
@@ -103,13 +107,13 @@ weight: 3
 
       function setScale() {
         var scale = parseFloat($('input[name="scale"]')[0].value);
-        console.log('scale', scale);
         paper.scale(scale, scale);
+        paper.fitToContent({padding: 12, allowNewOrigin: 'any'});
         $('#scaleVal').text(Math.round(scale * 100) + '%');
       }
 
       setup();
       setScale();
       render.all();
-      paper.fitToContent({padding: 2});
+      paper.fitToContent({padding: 12});
     </script>
