@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/joint.min.css">
+    <script src="/js/joint.min.js"></script>
+    <script src="data.js"></script>
+    <script src="diagram.js"></script>
+    <script src="render.js"></script>
+    <style>
+      /* Disable link removal. */
+      .link-tools .tool-remove { display: none }
+      .link-tools .tool-options { display: none }
+
+      .Rect {
+        cursor: pointer;
+      }
+
+      #paper {
+        font-size: 16px;
+        font-family: 'Helvetica Neue', helvetica;
+        font-weight: 400;
+      }
+
+      .small {
+        font-size: 13px;
+      }
+
+      rect[width="100"] {
+        cursor: pointer;
+      }
+
+      rect[stroke='#cccccc'],
+      text[fill='#444444'] {
+        cursor: default;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="paper"></div>
+
+    <script>
+      "use strict";
+
+      var paperSettings = {
+        width: 1150,
+        height: 850
+      };
+
+      var graph;
+      var paper;
+      var texts = [];
+      var active = 'all';
+
+      function setup() {
+        graph = new joint.dia.Graph;
+        paper = new joint.dia.Paper($.extend({}, {
+          el: $('#paper'),
+          gridSize: 5,
+          model: graph,
+          interactive: function(cellView) {
+            var attr = cellView.model.attributes;
+            if (attr.type === 'link') {
+              return false;
+            }
+            var hasStroke = attr.attrs ? attr.attrs.rect['stroke-width'] !== 0 : false;
+            return (attr.z < 0 || hasStroke);
+          }
+        }, paperSettings));
+        //paper.scale(0.9, 0.9);
+
+        graph.on('change:position', function(cell) {
+          if (!cell) {
+            return;
+          }
+          var parentId = cell.get('parent');
+          if (!parentId) {
+            return;
+          }
+
+          var parent = graph.getCell(parentId);
+          if (!parent) {
+            return;
+          }
+          var bbox = parent.getBBox();
+          var cellBBox = cell.getBBox();
+
+          if (bbox.containsPoint(cellBBox.origin()) &&
+              bbox.containsPoint(cellBBox.topRight()) &&
+              bbox.containsPoint(cellBBox.corner()) &&
+              bbox.containsPoint(cellBBox.bottomLeft())) {
+
+            // All the four corners of the child are inside
+            // the parent area.
+            return;
+          }
+
+          // Revert the child position.
+          cell.set('position', cell.previous('position'));
+        });
+
+        paper.on('cell:pointerclick', function(cell, evt, x, y) {
+          var attr = cell.model.attributes;
+          if (attr.prop && attr.prop.linkTo) {
+            var name = attr.prop.linkTo;
+            if (name === active) {
+              /* Go back to 'main'. */
+              name = 'all';
+            }
+            active = name;
+            diagram.clearTemp();
+            render.generic(name);
+          }
+        });
+      }
+
+      setup();
+      render.all();
+//      render.generic('app');
+      //paper.scaleContentToFit({padding: 8});
+    </script>
+
+  </body>
+</html>
