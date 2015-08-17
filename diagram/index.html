@@ -38,7 +38,12 @@
 
   <body>
 
-    <div id="paper"></div>
+    <div>
+      <div class="control">
+        <button onclick="toggleRouting()">Toggle auto-routing</button>
+      </div>
+      <div id="paper"></div>
+    </div>
 
     <script>
       "use strict";
@@ -52,6 +57,7 @@
       var paper;
       var texts = [];
       var active = 'all';
+      var routing = true;
 
       function setup() {
         graph = new joint.dia.Graph;
@@ -111,13 +117,23 @@
             active = name;
             diagram.clearTemp();
             render.generic(name);
+            routing = true;
           }
         });
       }
 
+      function toggleRouting() {
+        var links = graph.getLinks();
+        routing = !routing;
+        if (routing) {
+          links.forEach(function(x) { x.set('router', {name: 'manhattan'})})
+        } else {
+          links.forEach(function(x) { x.set('router', null)})
+        }
+      }
+
       setup();
       render.all();
-//      render.generic('app');
       //paper.scaleContentToFit({padding: 8});
     </script>
 

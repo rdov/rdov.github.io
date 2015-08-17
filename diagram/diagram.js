@@ -1,3 +1,8 @@
+/**
+ * A couple of helpers for creating and managing a graph in JSON
+ * with SVG styles.
+ */
+
 var diagram = {};
 
 diagram.cellStyle = {
@@ -99,7 +104,8 @@ diagram.rect = function(name, params) {
       rect: $.extend({}, this.cellStyle.rect, params.style)
     },
     position: params.position,
-    size: params.size || this.cellStyle.size
+    size: params.size || this.cellStyle.size,
+    z: 2
   };
 
   element.attrs.text.text = params.text;
@@ -132,7 +138,8 @@ diagram.link = function(source, target, displayHead) {
     target: {id: this.elements[target].id},
     connector: this.linkStyle.connector,
     router: {name: 'manhattan'},
-    attrs: attrs
+    attrs: attrs,
+    z: -2
   };
 };
 

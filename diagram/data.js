@@ -1,3 +1,7 @@
+/**
+ * Raw data that could have been extracted from the source code.
+ */
+
 var data = {
   components: {
     routed: {

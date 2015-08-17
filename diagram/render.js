@@ -1,3 +1,8 @@
+/**
+ * Create graphs by using the data from data.js and the helpers
+ * at diagram.js
+ */
+
 render = {};
 
 
