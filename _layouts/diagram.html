@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1">
+
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/solo.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/joint.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="/js/joint.min.js"></script>
+    <script src="data.js"></script>
+    <script src="diagram.js"></script>
+    <script src="render.js"></script>
+
+    <style>
+      button {
+        margin-right: 2rem;
+      }
+
+      /* Disable link removal. */
+      .link-tools .tool-remove { display: none }
+      .link-tools .tool-options { display: none }
+
+      .Rect {
+        cursor: pointer;
+      }
+
+      #paper {
+        height: 550px;
+        width: 800px;
+        overflow: auto;
+      }
+
+      .small {
+        font-size: 13px;
+      }
+
+      rect[width="100"] {
+        cursor: pointer;
+      }
+
+      rect[stroke='#cccccc'],
+      text[fill='#444444'] {
+        cursor: default;
+      }
+    </style>
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="container">
+        {% include edit.html %}
+
+        <article>
+          {{ content }}
+        </article>
+
+        {% if page.hidejump != true %}
+        <div class="top-pages">
+          <hr/>
+          <h2>{{ site.toc_title }}</h2>
+          {% include page_list.html %}
+        </div>
+        {% endif %}
+
+        <hr/>
+        <div class="page-comments">
+          <h3 id="bottom-comments">Comments</h3>
+          {% include comments.html %}
+        </div>
+      </div>
+
+      {% if page.hidejump != true %}
+      <div class="left-menu">
+        <div class="top-pages">
+          <div class="left-menu-wrapper">
+            <i>{{ site.toc_title }}</i>
+            {% include page_list.html %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -2,7 +2,7 @@
 layout: default
 title: Guides
 permalink: /guide/
-weight: 3
+weight: 4
 category: aggregator
 ---
 
