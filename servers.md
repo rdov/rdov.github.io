@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: post
 title: Servers
 weight: 8
 permalink: /servers/
@@ -9,10 +9,10 @@ permalink: /servers/
 As MREST is a pretty generic extension of REST, there are a number of ways to build a compatible server.
 
 ### HTTP server
-Pretty self-explanatory. You need to be able to handle HTTP requests for GET, POST, PUT, and DELETE methods. Handlers for these and your server info path need to be implemented, according to the [routes]({{ "/routes" | prepend: site.baseurl }}) section.
+Pretty self-explanatory. You need to be able to handle HTTP requests for GET, POST, PUT, and DELETE methods. Handlers for these and your server info path need to be implemented, according to the [routes]({{ "/routes/#route-permissions" | prepend: site.baseurl }}) section.
 
 ### SockJS server (optional)
-We recommend [SockJS]({{ "/sockjs" | prepend: site.baseurl }}) for streaming or asyncronous MREST applications. This should be separate from your http server, and you can probably just re-use our official [SockJS MQ](https://bitbucket.org/deginner/sockjs-mq-server) server.
+We recommend [SockJS]({{ "responses/#sockjs-responses" | prepend: site.baseurl }}) for streaming or asyncronous MREST applications. This should be separate from your http server, and you can probably just re-use our official [SockJS MQ](https://bitbucket.org/deginner/sockjs-mq-server) server.
 
 ### JSON Schemas
 You will have to generate and validate requests using MREST's customized [JSON Schemas]({{ "/data-types" | prepend: site.baseurl }}). JSON schemas are supported by most popular languages, so that shouldn't be a problem.

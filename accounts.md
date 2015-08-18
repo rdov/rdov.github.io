@@ -1,19 +1,18 @@
 ---
-layout: index
+layout: post
 title: Accounts
 weight: 6
 permalink: /accounts/
+highlight: true
 ---
 
 ## Summary
 MREST applications often have user accounts, and require [authentication]({{ "/authentication" | prepend: site.baseurl }}) for restricted resources. While this isn't required in all situations, there are some best practices to follow if you choose to make use of accounts.
 
 ## Default User Schema
-The official [Flask MREST](https://bitbucket.org/deginner/flask-mrest) server comes with a default User schema, which is used in the example app. This default User is the simplest example of how an MREST user model could be structured.
+The official [Flask MREST](https://bitbucket.org/deginner/flask-mrest) server comes with a default User schema, which is used in the example app. This default User is the simplest example of how an MREST user model could be structured. It has only one property which serves as the user id as well as the API key. 
 
-Add more attributes as your needs fit, but always consider interoperability. Clients will not necessarily understand additional property requirements. Consider using additional objects owned by the user.
-
-```
+{% highlight json %}
     {
       "$schema": "http://json-schema.org/draft-04/schema#", 
       "description": "model for an api user or item user", 
@@ -42,14 +41,21 @@ Add more attributes as your needs fit, but always consider interoperability. Cli
       "title": "UserSA", 
       "type": "object"
     }
-```
+{% endhighlight %}
+
+Add more attributes as your needs fit, but always consider interoperability. Clients will not necessarily understand additional property requirements. Consider using additional objects owned by the user.
+
+### Ownership and Authentication
+By adding the user id as a foreign key to other models, you can implement ownership and require authentication. It is up to the application developer to implement specific authentication checks, the standard is to only allow access if the request is signed by the user with the id referenced in the object.
 
 ## Registration
 To register for a server, call POST to the 'user_model' specified in the server info. Typically, this will require your client's bitcoin address in the request header.
 
 From the [Python MREST client](https://bitbucket.org/deginner/mrest-client-python/src/182861222e36281474686d4caace29fbb2e81043/mrest_client/client.py?at=master#client.py-102).
 
-`self.post('user', {"id": self.pubhash})`
+{% highlight python %}
+self.post('user', {"id": self.pubhash})
+{% endhighlight %}
 
 ## Server Discovery
 By visiting the [Info route]({{ "/routes" | prepend: site.baseurl }}) on any MREST server, a client can learn all it needs to know to use that server. In this way, a client could utilize many servers with different schemas and purposes throughout its lifecycle.

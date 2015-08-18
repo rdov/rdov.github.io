@@ -1,13 +1,20 @@
 ---
-layout: index
+layout: post
 title: Requests
 weight: 3
+permalink: /requests/
+highlight: true
 ---
 
 ## HTTP Requests
-MREST requests should always be made using HTTP, using the [routes]({{ "/routes" | prepend: site.baseurl }}) defined by the server's [schemas]({{ "/data-types" | prepend: site.baseurl }}).
+In this REST API, the basic [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations are available via the various HTTP methods. In all cases, data should be sent as JSON in the request body, and the response will follow the same pattern.
 
-When creating new items using POST, the item should pass validation against the corresponding json schema.
+| Method | Action  | Description                                     |
+|--------|---------|-------------------------------------------------|
+| POST   | Create  | Create new items with the supplied arguments.   |
+| GET    | Read    | Search and find data.                           |
+| PUT    | Update  | Update an item with the supplied arguments.     |
+| DELETE | Delete  | Delete the specified item.                      |
 
 ## Headers
 MREST defines a variable number of custom HTTP headers. These come in sets of 3, and each set describes a single signature of the message content.
@@ -20,11 +27,11 @@ MREST defines a variable number of custom HTTP headers. These come in sets of 3,
 
 Example:
 
-```
+{% highlight html %}
 x-mrest-time:	1439854057.62
 x-mrest-pubhash:	1GnsHrVdB4khKzHbiRyYfrrn5E9MHutyCQ
 x-mrest-sign:	IHqn5RXd8R79Fp9r9Dm9n5DdEZmG0FbbcIqFE9BmvyntXdI6YWZtyc6eIj/FV4SBqYXAYDR47tHU9LU5XSN4lao=
-```
+{% endhighlight %}
 
 Additional signers can be included by adding additional headers with a dash and an ascending natural number appended to the end. ('-1', '-2'...)
 
@@ -39,7 +46,7 @@ The table below assumes there are n+1 signers total. Note that the first signer 
 
 Example with 3 signers:
 
-```
+{% highlight html %}
 x-mrest-time:	1439854057.62
 x-mrest-pubhash:	1GnsHrVdB4khKzHbiRyYfrrn5E9MHutyCQ
 x-mrest-sign:	IHqn5RXd8R79Fp9r9Dm9n5DdEZmG0FbbcIqFE9BmvyntXdI6YWZtyc6eIj/FV4SBqYXAYDR47tHU9LU5XSN4lao=
@@ -49,4 +56,35 @@ x-mrest-sign-1:	IGntQ1a163+gwcd4j8qQxGh3z/x77V5zPAu13pKVKypDWjEJdgfSEFRIEBt8KF/+
 x-mrest-time-2:	1439859682.83
 x-mrest-pubhash-2:	17MVsM6HyY4FMAyoSo55Ae9t13pajfnuX2
 x-mrest-sign-2:	HyXWaS8og3GIgmyS9wCThxr87UAQGP+XC+SVAF9T9LBmHJqcqPah5w/0oS7ISYJLoG8bxC0FavyGWby5W5O/r00=
-```
+{% endhighlight %}
+
+## Examples
+
+### Javascript
+Create a coin:
+{% highlight javascript %}
+var coin;
+
+mrest.post('coin', {'metal':'PB','mint':'perhaps my basement?'}, function(err, resp) {
+  coin = resp;
+});
+{% endhighlight %}
+
+Then get the Coin you just created:
+
+{% highlight javascript %}
+mrest.get('coin', coin.id, function(err, resp) {});
+{% endhighlight %}
+
+Update the Coin to have a new mint:
+
+{% highlight javascript %}
+mrest.put('coin', coin.id, {'metal':'PB', 'mint': 'pirate booty'}, function(err, resp) {});
+{% endhighlight %}
+
+
+Delete the Coin:
+
+{% highlight javascript %}
+mrest.delete('coin', coin.id, function(err, resp) {});
+{% endhighlight %}

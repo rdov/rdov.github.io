@@ -17,6 +17,7 @@ MREST uses the following projects and technologies.
  * [JSON Schemas](http://json-schema.org/)
  * [Bitcoin](bitcoin.org)
  * [Flask](http://flask.pocoo.org/)
+ * [SQLAlchemy](http://www.sqlalchemy.org)
  * [SockJS](http://sockjs.org)
 
 ## Models

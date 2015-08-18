@@ -1,11 +1,13 @@
 ---
-layout: index
+layout: post
 title: Authentication
 weight: 5
+permalink: /authentication/
+highlight: true
 ---
 
 ## Introduction
-MREST authentication uses Bitcoin to sign requests and responses. This page details the signing and authentication instructions, which will be required for all [routes]({{ "/sockjs" | prepend: site.baseurl }}) using the 'authenticate' rule.
+MREST authentication uses Bitcoin to sign requests and responses. This page details the signing and authentication instructions, which will be required for all [routes]({{ "/routes" | prepend: site.baseurl }}) using the 'authenticate' rule.
 
 *All examples on this page are using Python 2.7*
 
@@ -23,7 +25,7 @@ Start with a json encoded message, like you would send in the request body of a 
 
 Example message signing
 
-```
+{% highlight python %}
 import base64
 import json
 import time
@@ -47,7 +49,7 @@ headers['x-mrest-sign'] = SIGN  # 5
 headers['x-mrest-time'] = sign_time  # 6
 headers['x-mrest-pubhash'] = PUB_KEY  # 7
 getattr(unirest, method)("https://test.deginner.com", params=sendstr, headers=headers)  # 8
-```
+{% endhighlight %}
 
 ## Authenticating a Message
 
@@ -58,7 +60,7 @@ getattr(unirest, method)("https://test.deginner.com", params=sendstr, headers=he
 5. Verify using the server's bitcoin public key to check the signature against the SIGNDATA.
 
 Example message authentication
-```
+{% highlight python %}
 message = json.loads(response.body)['data']  # 1
 SIGN = response.headers['x-mrest-sign']  # 2
 SIGN_TIME = response.headers['x-mrest-time']  # 3
@@ -66,7 +68,7 @@ method = 'RESPONSE'  # 4
 VerifyMessage(P2PKHBitcoinAddress(headers['x-mrest-pubhash']),
               BitcoinMessage(create_sign_str(message, method, SIGN_TIME)),
               SIGN)  # 5
-```
+{% endhighlight %}
 
 ## Additional Signers
 Some models require multiple signatures, as denoted by the "signers" json schema property, which is a list of pem pubhashs, the same as the client generates.
@@ -75,14 +77,14 @@ Some models require multiple signatures, as denoted by the "signers" json schema
 
 This indicates that when receiving an item belonging to this schema, the client should require the item to be signed by the owners of both pubhash0 and pubhash1. Additional signatures can be added to the header by appending '-<x>' to 'x-mrest-sign', 'x-mrest-pubhash' and 'x-mrest-time'.
 
-```
+{% highlight python %}
 headers = {"x-mrest-sign": "pubhash0 signature",
            "x-mrest-time": "pubhash0 signature time",
            "x-mrest-pubhash": "pubhash0",
            "x-mrest-sign-1": "pubhash1 signature",
            "x-mrest-time-1": "pubhash1 signature time",
            "x-mrest-pubhash-1": "pubhash1",}
-```
+{% endhighlight %}
 
 This is useful for multi-layer architectures where another server sits behind the MREST API server and performs protected activities. This protected server and the client can authenticate messages to each other independent of the intermediary, even while validating that the intermediary is the trusted one they know.
 

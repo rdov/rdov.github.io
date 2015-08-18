@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: post
 title: Clients
 weight: 7
 permalink: /clients/
@@ -16,7 +16,7 @@ The data sent on MREST APIs has to fit a [json schema](http://json-schema.org/).
 
 It is the validators that MREST clients make use of. Compatible clients will maintain a json schema validator and provide getters and setters for its schemas. Then it is a matter of running 'validate' on any model item prior to sending a request, or upon receiving a response.
 
-In addition, clients need to read the custom attributes described in the [data-types]([JSON Schemas]({{ "/data-types" | prepend: site.baseurl }})) section.
+In addition, clients need to read the custom attributes described in the [data-types]([JSON Schemas]({{ "/data-types/#json-schemas" | prepend: site.baseurl }})) section.
 
 ### Bitcoin signing
 As described more in the [Authentication]({{ "/authentication" | prepend: site.baseurl }}) section, MREST uses Bitcoin to sign and verify messages. Each client will need meet some basic requirements for this process.
