@@ -1,12 +1,12 @@
 # Site settings
-title: Deglet Developer Documentation
+title: MREST Documentation
 description: # this means to ignore newlines until "baseurl:"
-  Deglet Developer Documentation is licensed under
+  MREST Documentation is licensed under
   <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br/>
   © 2015 Deginner.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://g-p-g.bitbucket.org/" # the base hostname & protocol for your site
-repo_edit: "https://bitbucket.org/deginner/deglet-doc/src/master/"
+url: "http://mrest.deginner.com/doc/" # the base hostname & protocol for your site
+repo_edit: "https://bitbucket.org/deginner/mrest-doc/src/master/"
 toc_title: Contents
 
 highlighter: null
@@ -14,4 +14,4 @@ permalink: /:title
 
 # Build settings
 markdown: kramdown
-exclude: ['build_scripts', 'contributors.txt', 'deglet_react.graffle']
+exclude: ['build_scripts', 'contributors.txt']
