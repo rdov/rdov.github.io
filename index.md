@@ -15,7 +15,7 @@ MREST uses the following projects and technologies.
 
  * [REST](http://www.w3.org/2001/sw/wiki/REST)
  * [JSON Schemas](http://json-schema.org/)
- * [Bitcoin](bitcoin.org)
+ * [Bitcoin](http://bitcoin.org)
  * [Flask](http://flask.pocoo.org/)
  * [SQLAlchemy](http://www.sqlalchemy.org)
  * [SockJS](http://sockjs.org)
