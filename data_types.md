@@ -16,7 +16,6 @@ The schemas each contain two custom attributes: routes and signers.
 | routes          | An object showing routes and permissions for the model. See 'Routes & Permissions' subsection.|
 | signers         | Specific signers which are required for authenticating an item. (optional) |
 
-### Example Schema
 For example, lets say you wanted to build an API to manage a collection of coins. Each coin has two required properties: metal & mint. This model can be represented as the following json schema:
 
 {% highlight json %}

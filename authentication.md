@@ -71,11 +71,11 @@ VerifyMessage(P2PKHBitcoinAddress(headers['x-mrest-pubhash']),
 {% endhighlight %}
 
 ## Additional Signers
-Some models require multiple signatures, as denoted by the "signers" json schema property, which is a list of pem pubhashs, the same as the client generates.
+Some models require multiple signatures, as denoted by the "signers" json schema property, which is a list of public keys, the same as the client generates.
 
 `"signers": ["pubhash0", "pubhash1"]`
 
-This indicates that when receiving an item belonging to this schema, the client should require the item to be signed by the owners of both pubhash0 and pubhash1. Additional signatures can be added to the header by appending '-<x>' to 'x-mrest-sign', 'x-mrest-pubhash' and 'x-mrest-time'.
+This indicates that when receiving an item belonging to this schema, the client should require the item to be signed by the owners of both pubhash0 and pubhash1. Additional signatures can be added to the header by appending '-<n>' to 'x-mrest-sign', 'x-mrest-pubhash' and 'x-mrest-time'.
 
 {% highlight python %}
 headers = {"x-mrest-sign": "pubhash0 signature",

@@ -7,24 +7,28 @@ highlight: true
 ---
 
 ## Summary
-MREST applications often have user accounts, and require [authentication]({{ "/authentication" | prepend: site.baseurl }}) for restricted resources. While this isn't required in all situations, there are some best practices to follow if you choose to make use of accounts.
+MREST applications often have user accounts, and require [authentication]({{ "/authentication" | prepend: site.baseurl }}) for restricted resources. While this isn't needed in all situations, there are some best practices to follow if you choose to make use of accounts.
 
 ## Default User Schema
-The official [Flask MREST](https://bitbucket.org/deginner/flask-mrest) server comes with a default User schema, which is used in the example app. This default User is the simplest example of how an MREST user model could be structured. It has only one property which serves as the user id as well as the API key. 
+The official [Flask MREST](https://bitbucket.org/deginner/flask-mrest) server comes with a default User schema, which is used in the example app. This default User is the second simplest example of how an MREST user model could be structured. It has only two properties: username and pubhash.
 
 {% highlight json %}
-    {
+{
       "$schema": "http://json-schema.org/draft-04/schema#", 
       "description": "model for an api user or item user", 
       "properties": {
-        "id": {
-          "description": "primary key", 
+        "pubhash": {
+          "maxLength": 36, 
+          "type": "string"
+        }, 
+        "username": {
           "maxLength": 36, 
           "type": "string"
         }
       }, 
       "required": [
-        "id"
+        "pubhash", 
+        "username"
       ], 
       "routes": {
         "/": {
@@ -41,20 +45,37 @@ The official [Flask MREST](https://bitbucket.org/deginner/flask-mrest) server co
       "title": "UserSA", 
       "type": "object"
     }
+  }
 {% endhighlight %}
 
 Add more attributes as your needs fit, but always consider interoperability. Clients will not necessarily understand additional property requirements. Consider using additional objects owned by the user.
 
 ### Ownership and Authentication
-By adding the user id as a foreign key to other models, you can implement ownership and require authentication. It is up to the application developer to implement specific authentication checks, the standard is to only allow access if the request is signed by the user with the id referenced in the object.
+By adding the user public key hash as a foreign key to other models, you can implement ownership and require authentication.
 
-## Registration
-To register for a server, call POST to the 'user_model' specified in the server info. Typically, this will require your client's bitcoin address in the request header.
-
-From the [Python MREST client](https://bitbucket.org/deginner/mrest-client-python/src/182861222e36281474686d4caace29fbb2e81043/mrest_client/client.py?at=master#client.py-102).
+It is up to the application developer to implement specific authentication checks, the standard is to only allow access to 'authenticate' routes if the signer's public key is referenced by the object.
 
 {% highlight python %}
-self.post('user', {"id": self.pubhash})
+class CoinSA(SABase):
+    """model for coin"""
+    __tablename__ = "coin"
+
+    id = sa.Column(sa.Integer, primary_key=True, doc="primary key")
+    metal = sa.Column(sa.String(255), nullable=False)
+    mint = sa.Column(sa.String(255), nullable=False)
+
+    # the owner of the coin. only authenticate if this user has signed.
+    user_pubhash = sa.Column(sa.String(120), sa.ForeignKey('user.pubhash'), nullable=False)
+    user = orm.relationship("UserSA")
+{% endhighlight %}
+
+
+
+## Registration
+To register for a server, call POST to the 'user_model' specified in the server info. Typically, this will require your client's public key hash, and a username unique to that server. You could use the first bits of your bitcoin address, if you are lazy.
+
+{% highlight python %}
+self.post('user', {"pubhash": self.pubhash, "username": self.pubhash[0:8]})
 {% endhighlight %}
 
 ## Server Discovery
@@ -70,7 +91,7 @@ A client should follow the same steps each time it discovers a server it wishes 
 5. Register by creating an instance (POST) of the user model supplying your client's bitcoin public key in the request header.
 6. Cache the schemas, keyring, routes, url, and other configuration info for next time
 
-The above steps can be completed manually by simply providing them in the configuration argument to your client constructor. This should be done for dedicated or highly sensitive clients. In the case where [mulptiple signers](https://bitbucket.org/deginner/flask-mrest/wiki/Authentication) are used, all of the keys should be cached in your keyring and passed in at client initialization.
+The above steps can be completed manually by simply providing them in the configuration argument to your client constructor. This should be done for dedicated or highly sensitive clients. In the case where [mulptiple signers]({{ "/authentication/#additional-signers" | prepend: site.baseurl }}) are used, all of the keys should be cached in your keyring and passed in at client initialization.
 
 ### Rediscovery
 After the initial discovery, the cached configuration should be checked on client initialization. If any of the important data, particularly the server's signing key have changed, an exception should be raised.

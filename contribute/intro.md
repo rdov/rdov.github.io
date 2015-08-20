@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributing
-weight: 10
+weight: 15
 ---
 
 ## Contributing to
