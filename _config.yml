@@ -6,7 +6,7 @@ description: # this means to ignore newlines until "baseurl:"
   © 2015 Deginner.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rdov.co/" # the base hostname & protocol for your site
-repo_edit: "https://bitbucket.org/deginner/rdov/src/master/"
+repo_edit: "https://github.com/deginner/rdov.co/edit/master/"
 toc_title: Contents
 
 highlighter: null
