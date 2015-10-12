@@ -9,7 +9,7 @@ url: "http://rdov.github.io/" # the base hostname & protocol for your site
 repo_edit: "https://github.com/rdov/rdov.github.io/edit/master/"
 toc_title: Contents
 
-highlighter: null
+highlighter: 'pygments'
 permalink: /:title
 
 # Build settings
