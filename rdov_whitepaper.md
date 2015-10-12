@@ -110,14 +110,16 @@ These small, informal R & D teams may arrange themselves on the fly, do real, op
 
 ## Future Development Thesis
 
-The RDOV business model is as based on industry best-practices but untested in specifics. Among other things, this means that contracts and basic details of RDOV arrangements have not been worked out. These need to be created, and then beta tested by entrepreneurial stakeholders.
+The RDOV business model is based on industry best-practices but untested in specifics. Among other things, this means that contracts and basic details of RDOV arrangements have not been worked out. These need to be created, and then beta tested by entrepreneurial stakeholders.
 
 This whitepaper and other generic RDOV resources such as use cases and sample contracts should be hosted on the rdov.co domain as a public service.
 
-To provide an experimental framework for RDOV development, a franchise should be created which will facillitate best practices for RDOV users. This will take the form of a web app and should be crowdfunded, to encourage community involvement from day one. As concensus contracts and best practices emerge, the app will incorporate them into its UX.
+To provide an experimental framework for RDOV development, a franchise should be created which will facillitate best practices for RDOV users. This will take the form of a web app named Our Dove and should be [crowdfunded]({{ "/OurDove/" | prepend: site.baseurl }}), to encourage community involvement from day one. As concensus contracts and best practices emerge, Our Dove will incorporate them into its UX.
 
-The long term business model for the franchise app will be to provide easy, one stop resources and support for developers, mentors, sponsors, and other RDOV participants. The franchise will offer supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users and provide a viable incentive for development and marketing of the RDOV model itself.
+The long term business model for Our Dove will be to provide easy, one stop resources and support for developers, mentors, sponsors, and other RDOV users. The franchise aspect of Our Dove will be to offer supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users and provide a viable incentive for experimentation, development and marketing of the RDOV model itself.
+
+In effect, Our Dove will be the first RDOV incubator project. Its sponsors will be the crowdfunding supports, and its sponsored projects will be generation after generation of RDOV-style ventures.
 
 ##### Disclaimer
 
-The contributors views and opinions are their own. Google, Android, and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
+The contributors views and opinions are their own. Google, Android, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
