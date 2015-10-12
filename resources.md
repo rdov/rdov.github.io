@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Background Resources
-weight: 1
+weight: 19
 permalink: /resources/
 ---
 
