@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Our Dove
-weight: 2
-permalink: /OurDove/
+title: Our Dove Crowdfund
+weight: 3
+permalink: /OurDoveCrowdfund/
 ---
 
 This document is a prep for the real [Indiegogo](https://indiegogo.com) campaign. It tries to mimick the format, so that transposing it onto their website or another service will be an easy task.
