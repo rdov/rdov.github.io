@@ -5,8 +5,8 @@ description: # this means to ignore newlines until "baseurl:"
   <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br/>
   © 2015 Deginner.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rdov.co/" # the base hostname & protocol for your site
-repo_edit: "https://github.com/deginner/rdov.co/edit/master/"
+url: "http://rdov.github.io/" # the base hostname & protocol for your site
+repo_edit: "https://github.com/rdov/rdov.github.io/edit/master/"
 toc_title: Contents
 
 highlighter: null

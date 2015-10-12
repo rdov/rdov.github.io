@@ -45,7 +45,7 @@ The Our Dove team consists of a partnership between two organizations: open sour
 
 Deginner is a pure R & D firm. Though the business model that inspires Our Dove (RDOV) and the software stack that will run it (Deglet) originate with Deginner, all operations will be managed by the Our Dove company.
 
-Deginner has offered to develop and provide long term support for the Our Dove platform. In addition, Deginner will donate some of the Kickstarter rewards. Deginner is motivated to expand use of the RDOV model, and looks forward to collaborating with other R & D teams using the Our Dove platform.
+Deginner has offered to develop and provide long term support for the Our Dove platform. In addition, Deginner will donate some of the crowdfunding rewards. Deginner is motivated to expand use of the RDOV model, and looks forward to collaborating with other R & D teams using the Our Dove platform.
 
 Cindy Zimmerman was chosen as CEO for Our Dove because of her technical and managerial background, as well as her passion for collaborative business. Her extensive network in private, public and academic software circles will be instrumental in attracting the diverse and high-quality users that Our Dove needs to thrive.
 
@@ -172,7 +172,7 @@ All are cumulative.
 | Date | Goal | Owner | Description |
 |--------|---------|-------|-------------|
 | 15/11/15 | Crowdfunding launch | * | Public launch for the Crowdfunding campaign. Embargo date for PR. |
-| -------- | Events and promotion | * | Do podcasts, speaches, public events, and any promotion appropriate to attract kickstarter contributions. |
+| -------- | Events and promotion | * | Do podcasts, speaches, public events, and any promotion appropriate to attract crowdfunding contributions. |
 | 15/12/15 | Crowdfunding end | * | End date for the Crowdfunding campaign. |
 
 ### MVP Development
@@ -201,7 +201,7 @@ Use [goanimate](http://goanimate.com) to do these videos ourselves. As the topic
 
 | Name | target length | description |
 |------|---------------|-------------|
-| Our Dove Kickstarter | 3 min. | Lifecycle of a support then support/sponsorship agreement. Highlights how easy it is to monetize open source projects. Turn your github project into bitcoin today! Advertise our crowdsale |
+| Our Dove crowdfunding | 3 min. | Lifecycle of a support then support/sponsorship agreement. Highlights how easy it is to monetize open source projects. Turn your github project into bitcoin today! Advertise our crowdsale |
 | Our Dove for Developers | 1 min. | How developers and project maintainers can use Our Dove. |
 | Our Dove for Consumers | 1 min. | How comsumers can use Our Dove to shop for open source projects and related services. |
 | Our Dove for Sponsors | 1 min. | How sponsors can use and get repaid for sponsoring open source projects on Our Dove. |
