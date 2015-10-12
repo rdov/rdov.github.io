@@ -1,12 +1,12 @@
 # Site settings
-title: MREST Documentation
+title: Research & Develop Open Ventures (RDOV)
 description: # this means to ignore newlines until "baseurl:"
-  MREST Documentation is licensed under
+  RDOV is licensed under
   <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br/>
   © 2015 Deginner.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mrest.deginner.com/doc/" # the base hostname & protocol for your site
-repo_edit: "https://bitbucket.org/deginner/mrest-doc/src/master/"
+url: "http://rdov.co/" # the base hostname & protocol for your site
+repo_edit: "https://bitbucket.org/deginner/rdov/src/master/"
 toc_title: Contents
 
 highlighter: null
