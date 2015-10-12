@@ -100,7 +100,7 @@ How does the RDOV model align incentives?
 
 The mentor is able to create a career working creatively on their incubated project as well as specially chosen successors, while receiving both short and long-term income. By defining the terms up front, the mentor is easily able to budget and plan to outsource supplimental services such as front-line support or hosting. This leaves the core intellectual work to accomplish, which the mentor is an expert at. Even if the incubator projects lose out to another fork, the forkers may also want a standalone Support Agreement with the mentor. The grant money will have paid for the mentors time if all else fails.
 
-The sponsor is able to invest in a specific thesis with the guarantee of expert, long term technical guidance on execution. Because the mentor's incubator project and sponsored projects are open source, the mentor has complete visibility into the value proposition and results. The mentor is also an expert technical investment advisor, filtering unqualified applicants and infeasible projects from the investment pool.
+The sponsor is able to invest in a specific thesis with the guarantee of expert, long term technical guidance on execution. Because the mentor's incubator project and sponsored projects are open source, the sponsor has complete visibility into the value proposition and results. The mentor is also an expert technical investment advisor, filtering unqualified applicants and infeasible projects from the investment pool.
 
 The sponsored project receives an open and well maintained platform to build or operate on, as well as the mentoring and support of the platform developers. This may greatly reduce time to launch, and will certainly reduce long term maintenance costs. Whether a sponsored project is another open venture or a corporation, there is no better assistance they could ask for than the mentor's.
 
@@ -126,8 +126,8 @@ To provide an experimental framework for RDOV development, a franchise should be
 
 The long term business model for Our Dove will be to provide easy, one stop resources and support for developers, mentors, sponsors, and other RDOV users. The franchise aspect of Our Dove will be to offer supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users and provide a viable incentive for experimentation, development and marketing of the RDOV model itself.
 
-In effect, Our Dove will be the [Founding Incubator]({{ "/FoundingIncubator/" | prepend: site.baseurl }}) project, and Deginner will be the mentor. Its sponsors will be the crowdfunding supports, and its sponsored projects will be generation after generation of RDOV-style ventures.
+In a way, Our Dove will be the first sponsored project, even before the [Founding Incubator]({{ "/FoundingIncubator/" | prepend: site.baseurl }}). Deginner will be the mentor, providing the application framework [Deglet](http://deglet.xyz). Its sponsors will be the crowdfunding supporters, and its sponsored projects will be generation after generation of RDOV-style ventures.
 
 ##### Disclaimer
 
-The contributors views and opinions are their own. Google, Android, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
+The contributors views and opinions are their own. Google, Android, The Linux Foundation, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
