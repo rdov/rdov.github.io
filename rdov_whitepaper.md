@@ -68,7 +68,9 @@ The diversity of options available for sponsorships makes them particularly diff
 
 Often the developers recognize the capital nature of their invention and become co-founders on derived ventures. These new ventures may be of commercial, open source, or even closed source in nature. Most likely, they will be interested in leveraging the unique capabilities of the open source project or its developers.
 
-This is a very long-term, Indirect Services strategy, but if successful gives the Mentor a full career. Once a developer has produced a successful open source project, anyone can see and evaluate their capabilities. This open evaluation should lead to good-match partnerships. One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplimental income or a significant savings reserve is available to the developer.
+This is a very long-term, Indirect Services strategy, but if successful gives the developer a full career. Once a developer has produced a successful open source project, anyone can see and evaluate their capabilities. This open evaluation should lead to good-match partnerships.
+  
+One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplimental income or a significant savings reserve is available to the developer.
 
 ## Aligning Incentives with RDOV Incubators
 
