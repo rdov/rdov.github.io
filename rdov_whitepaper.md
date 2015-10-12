@@ -94,6 +94,7 @@ If accepted, the sponsored project will be given a grant, and will be entitled t
 ##### 6. Operations and Revenue Stream
 As sponsored projects launch and begin their own commercial operations, they enter the main phase of the Support Agreement. They may have ongoing requests both regular and for new/expansive development efforts. The mentor will provide ongoing assistance with these efforts as the agreement specifies. For their part, the sponsored project makes Support Agreement payments to the incubator, where they will be further split between the mentor and sponsor.
 
+##### Example (Founding Incubator)
 ![rdov]({{ "/img/RDOV.png" | prepend: site.baseurl }})
 
 How does the RDOV model align incentives?
@@ -118,14 +119,16 @@ These small, informal R & D teams may arrange themselves on the fly, do real, op
 
 ## Future Development Thesis
 
+![FDT Partnership]({{ "/img/partnership.png" | prepend: site.baseurl }})
+
 The RDOV business model is based on industry best-practices but untested in specifics. Among other things, this means that contracts and basic details of RDOV arrangements have not been worked out. These need to be created, made available for public review, and then beta tested by entrepreneurs.
 
 This whitepaper and other generic RDOV resources such as use cases and sample contracts will be hosted on the rdov.co domain as a public service by Deginner.
 
-To provide a funding and organization framework for RDOV development, a franchise should be created which will facillitate best practices for RDOV users. This will take the form of a web app named Our Dove. The franchise aspect of Our Dove will be to offer supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users while giving the Our Dove corporation a long-term incentive for experimentation, development and marketing of the RDOV model itself.
+To provide a funding and organization framework for RDOV development, a franchise should be created which will facillitate best practices for RDOV users. This will take the form of a web app named Our Dove. The franchise aspect of Our Dove will be to offer a UX framework as well as supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users while giving the Our Dove corporation a long-term incentive for experimentation, development and marketing of the RDOV model itself.
 
 Our Dove should be [crowdfunded]({{ "/OurDoveCrowdfund/" | prepend: site.baseurl }}), to encourage community involvement from day one. As concensus contracts and best practices emerge, Our Dove will incorporate them into its UX. Through crowdfunding, Our Dove will be the first sponsored project, even before the [Founding Incubator]({{ "/FoundingIncubator/" | prepend: site.baseurl }}). Deginner will be the mentor, providing the application framework [Deglet](http://deglet.xyz). Its sponsors will be the crowdfunding supporters, and its sponsored projects will be generation after generation of RDOV-style ventures leveraging the tools and services Our Dove creates.
 
 ##### Disclaimer
 
-The contributors views and opinions are their own. Google, Android, The Linux Foundation, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
+The contributors views and opinions are their own. Google, Android, The Linux Foundation, Deginner, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
