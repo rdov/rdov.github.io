@@ -30,13 +30,19 @@ Open Source is a term used for a project which has explicitly forbidden legal mo
 
 Open projects can be read, used, and expanded on by anyone. This obviously is the best deal for users, who get access to the invention for the lowest possible price. In the case of open source ideas, like software or media, the price is usually zero. On the other hand, this minimal price underscores a deep problem for the inventors and contributing developers of the project. How can they recoup the cost of their contributions? Why should they contribute at all?
 
+#### Direct Use
+
 It is hard for developers to profit selling copies of their open project. Because the details are by definition commonly available, any demand in the market is already being met with the cost of a download or more generally are forced down toward cost of reproduction.
 
 Some Direct Use of open projects is done through foundations, such as [The Linux Foundation](http://linuxfoundation.org), where stakeholders come together to fund investment in a commonly used capital good. This is only possible, however, when well organized and funded organizations realize their shared need and willingly collaborate over long periods of time. Needless to say, this is often difficult to arrange in practice.
 
 Probably the most common Direct Use of open source projects is as a "pet." This is when a single dominant party develops the open project as part of the ecosystem they promote. For example, Google open sourced the Android operating system so that retail products like phones as well as the software apps could be made more cheaply and easily. The Google corporation benefits in many ways from this open platform, and so is willing to contribute the required resources to develop and maintain it.
 
+#### Indirect Services
+
 Indirect Services for an open project often use alternative skill sets. Support and operations are specialized disciplines of their own, which developers have no advantage in. Today, this is usually compensated for by a developer joining forces with complementary labor through the organizational paradigm of a corporation. Alternately, the developer can seek a less involved form of corporate sponsorship or simply sit by as a corporation takes over the product or service market related to their invention. Again, the required economies of scale are significant, resulting in a high barrier to entry, and an anti-competitive environment.
+
+#### Strategic Analysis
 
 To understand how to monetize open source projects, one must first understand their nature. Many open projects fit into the economic category of a capital good. That is to say it is primarily useful for producing other things. While there are some examples of projects that are consumer facing, open source is uniquely suited to use as capital in large operations where standardization reaps benefit in economies of scale. Consumers often want variety, which closed source does just fine at. Enterprises want consistency and reliability, which open source is superior at.
 
@@ -92,15 +98,17 @@ As sponsored projects launch and begin their own commercial operations, they ent
 
 How does the RDOV model align incentives?
 
-The mentor is able to continue working creatively on their incubated project as well as specially chosen successors, while receiving both short and long-term income. By defining the terms up front, the mentor is easily able to budget and plan to outsource supplimental services such as front-line support or hosting. This leaves the core intellectual work to accomplish, which can be shared like always by hiring or otherwise recruiting other developers. Even if the incubator projects lose out to others, this service infrastructure may be exactly what the new market leader needs to support their fork of the mentor's project. The grant money will have paid for the mentors time if nothing else.
+The mentor is able to create a career working creatively on their incubated project as well as specially chosen successors, while receiving both short and long-term income. By defining the terms up front, the mentor is easily able to budget and plan to outsource supplimental services such as front-line support or hosting. This leaves the core intellectual work to accomplish, which the mentor is an expert at. Even if the incubator projects lose out to another fork, the forkers may also want a standalone Support Agreement with the mentor. The grant money will have paid for the mentors time if all else fails.
 
 The sponsor is able to invest in a specific thesis with the guarantee of expert, long term technical guidance on execution. Because the mentor's incubator project and sponsored projects are open source, the mentor has complete visibility into the value proposition and results. The mentor is also an expert technical investment advisor, filtering unqualified applicants and infeasible projects from the investment pool.
 
-The sponsored project receives an open and well maintained platform to build or operate on, as well as the mentoring and support of the platform developers. This may greatly reduce time to launch, and will certainly reduce long term costs through the terms of the support contract as well as the inherent consumer protection afforded by open source code. Whether a sponsored project is another open venture or a corporation, there is no better assistance they could ask for than the mentor.
+The sponsored project receives an open and well maintained platform to build or operate on, as well as the mentoring and support of the platform developers. This may greatly reduce time to launch, and will certainly reduce long term maintenance costs. Whether a sponsored project is another open venture or a corporation, there is no better assistance they could ask for than the mentor's.
 
-Consumers win because a viable and thriving open source R & D sector means more open source products. Open source products give consumers control, choice, and privacy, and should generally accelerate the R&D pace through free cross-polination of ideas.
+Consumers win because a viable and thriving open source R & D sector means more open source products. Open source products give consumers control, choice, and privacy. More R & D being open should accelerate even the closed R&D pace through free cross-polination of ideas.
 
 ## Open Ventures: A New Organizational Paradigm
+
+*Open Venture* - A project or business that uses primarily open source technology to achieve its goals.
 
 Using the RDOV model, open ventures can be chained to create vertically integrated, complex products and services, while maintaining a simple, developer controlled organization. These organizations are complimentary with, but potentially much looser than that provided by incorporation.
 
