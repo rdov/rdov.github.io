@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Whitepaper
+title: RDOV Whitepaper
 weight: 0
 permalink: /
 ---
@@ -26,17 +26,17 @@ Arguably the least efficient method is indirect application. This method allows 
 
 ### Economics of Open Source
 
-Open Source is a term used for a project which has explicitly forbidden legal monopoly. The economic term for this is "the commons", because the project details are available to the general public like a common area. Yes, these are the same commons infamously subject to "[the tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)". Unlike physical commons, however, intellectual commons are not a limited resource. This makes intellectual commons more heroic than tragic.
+Open Source is a term used for a project which has explicitly forbidden legal monopoly. The economic term for this is "the commons", because the project details are available to the general public like a common area. Yes, these are the same infamously subject to "[the tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)". Unlike physical commons, however, intellectual ones are not a limited resource. This may make intellectual commons more heroic than tragic.
 
 Open projects can be read, used, and expanded on by anyone. This obviously is the best deal for users, who get access to the invention for the lowest possible price. In the case of open source ideas, like software or media, the price is usually zero. On the other hand, this minimal price underscores a deep problem for the inventors and contributing developers of the project. How can they recoup the cost of their contributions? Why should they contribute at all?
 
 It is hard for developers to profit selling copies of their open project. Because the details are by definition commonly available, any demand in the market is already being met with the cost of a download or more generally are forced down toward cost of reproduction.
 
-Some direct application of open projects is done through foundations, such as The Linux Foundation, where stakeholders come together to fund investment in a commonly used capital good. This is only possible, however, when well organized, well funded organizations realize their shared need and willingly collaborate over long periods of time to reap the benefits of economies of scale. Needless to say, this is often difficult to arrange in practice.
+Some direct application of open projects is done through foundations, such as The Linux Foundation, where stakeholders come together to fund investment in a commonly used capital good. This is only possible, however, when well organized and funded organizations realize their shared need and willingly collaborate over long periods of time. Needless to say, this is often difficult to arrange in practice.
 
 Probably the most common direct application of open source projects is as a "pet." This is when a single dominant party develops the open project as part of the ecosystem they promote. For example, Google open sourced the Android operating system so that retail products like phones as well as the software apps could be made more cheaply and easily. The Google corporation benefits in many ways from this open platform, and so is willing to contribute the required resources to develop and maintain it.
 
-Indirect applications of an open project often use alternative skill sets. Support and operations are specialized disciplines of their own, which developers have no advantage in. Today, this is usually compensated for by a developer joining forces with complementary labor through the organizational paradigm of a corporation. Alternately, the developer can seek corporate sponsorship or simply sit by as a corporation takes over the product or service market related to their invention. Again, the required economies of scale are significant, resulting in a high barrier to entry, and an anti-competitive environment.
+Indirect applications of an open project often use alternative skill sets. Support and operations are specialized disciplines of their own, which developers have no advantage in. Today, this is usually compensated for by a developer joining forces with complementary labor through the organizational paradigm of a corporation. Alternately, the developer can seek a less involved form of corporate sponsorship or simply sit by as a corporation takes over the product or service market related to their invention. Again, the required economies of scale are significant, resulting in a high barrier to entry, and an anti-competitive environment.
 
 To understand how to monetize open source projects, one must first understand their nature. Many open projects fit into the economic category of a capital good. That is to say it is primarily useful for producing other things. While there are some examples of projects that are consumer facing, open source is uniquely suited to use as capital in large operations where standardization reaps benefit in economies of scale. Consumers often want variety, which closed source does just fine at. Enterprises want consistency and reliability, which open source is superior at.
 
@@ -62,7 +62,7 @@ The diversity of options available for sponsorships makes them particularly diff
 
 Often the developers recognize the nature of their project and become co-founders on ventures utilizing their project. These new ventures may be of commercial, open source, or even closed source in nature. Most likely, they will be interested in leveraging the unique capabilities of the open source project or its developers.
 
-This is generally a safe long-term strategy, as it puts the contribution and skill demonstration up front. Once a developer has produced a successful open source project, anyone can see and evaluate their capabilities. This open evaluation should lead to good-match partnerships. One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplimental income or a significant savings reserve is available to the developer.
+This is a very long-term strategy, but if successful gives the Mentor a full career. Once a developer has produced a successful open source project, anyone can see and evaluate their capabilities. This open evaluation should lead to good-match partnerships. One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplimental income or a significant savings reserve is available to the developer.
 
 ## Aligning Incentives with RDOV Incubators
 
@@ -98,7 +98,7 @@ The sponsor is able to invest in a specific thesis with the guarantee of expert,
 
 The sponsored project receives an open and well maintained platform to build or operate on, as well as the mentoring and support of the platform developers. This may greatly reduce time to launch, and will certainly reduce long term costs through the terms of the support contract as well as the inherent consumer protection afforded by open source code. Whether a sponsored project is another open venture or a corporation, there is no better assistance they could ask for than the mentor.
 
-Consumers win because a viable and thriving open source R & D sector means more open source products. Open source products give consumers control, choice, and privacy, and should generally accelerate the R&D pace through accelerated cross-polination of ideas.
+Consumers win because a viable and thriving open source R & D sector means more open source products. Open source products give consumers control, choice, and privacy, and should generally accelerate the R&D pace through free cross-polination of ideas.
 
 ## Open Ventures: A New Organizational Paradigm
 
@@ -110,7 +110,7 @@ These small, informal R & D teams may arrange themselves on the fly, do real, op
 
 ## Future Development Thesis
 
-The RDOV business model is based on industry best-practices but untested in specifics. Among other things, this means that contracts and basic details of RDOV arrangements have not been worked out. These need to be created, and then beta tested by entrepreneurial stakeholders such.
+The RDOV business model is based on industry best-practices but untested in specifics. Among other things, this means that contracts and basic details of RDOV arrangements have not been worked out. These need to be created, and then beta tested by entrepreneurs.
 
 This whitepaper and other generic RDOV resources such as use cases and sample contracts will be hosted on the rdov.co domain as a public service by Deginner.
 
