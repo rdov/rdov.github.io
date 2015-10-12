@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our Dove Founding Incubator
+title: Founding Incubator
 weight: 2
 permalink: /FoundingIncubator/
 ---

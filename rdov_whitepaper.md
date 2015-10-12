@@ -86,7 +86,7 @@ Once a sponsor has been found, and has funded the incubator, it can begin accept
 If accepted, the sponsored project will be given a grant, and will be entitled to the benefits of the Support Agreement. Initially this could entail some build out, with contractually defined contributions by the mentor. If the mentor invests time on a sponsored project, the Support Agreement may include provisions for time-based billing. In this way, grant money provides steady income for the mentor during the development phase.
 
 ##### 6. Operations and Revenue Stream
-As sponsored projects launch and begin their own commercial operations, they enter the main phase of the Support Agreement. They may have ongoing requests both regular and for new/expansive development efforts. The mentor will provide ongoing assistance with these efforts as the agreement specifies. For their part, the sponsored project makes Support Agreement payments to the incubator, where they will be further split between the mentor ans sponsor.
+As sponsored projects launch and begin their own commercial operations, they enter the main phase of the Support Agreement. They may have ongoing requests both regular and for new/expansive development efforts. The mentor will provide ongoing assistance with these efforts as the agreement specifies. For their part, the sponsored project makes Support Agreement payments to the incubator, where they will be further split between the mentor and sponsor.
 
 ![rdov]({{ "/img/RDOV.jpg" | prepend: site.baseurl }})
 
