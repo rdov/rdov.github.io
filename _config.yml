@@ -14,4 +14,4 @@ permalink: /:title
 
 # Build settings
 markdown: kramdown
-exclude: ['build_scripts', 'contributors.txt']
+exclude: ['build_scripts', 'contributors.txt', 'img_src']
