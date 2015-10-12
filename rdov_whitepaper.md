@@ -16,17 +16,17 @@ In a market, being an inventor alone is not enough to pay the bills. An inventor
 |---------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 |Direct Use           | Salesman, Operator                   | Sell copies of the invention or use the invention as capital to produce some other marketable good or service.        |
 |Indirect Services    | Mentor, maintainer, support provider | Provide services related to the invention.                                                        |
-|Royalties            | IP owner                             | The inventor receives government assistance in enforcing a monopoly on the invention, and taxing its use through royalties.        |
+|Royalties            | IP owner                             | The inventor receives a government enforced monopoly on the invention, and taxes its use through royalties.        |
 
-Of these, the most common in today's developed markets is certainly royalties or Intellectual Property. The primary drive for use of this method is that once a legal monopoly has been granted, an idea can be used by specifically selected third parties without fear of "idea theft." Because any competitive use of the idea is forbidden legally, the idea can be shared and utilized as an open secret. In practice, this method requires bureaucratic navigation, legal negotiations, and long term billing/recovery operations. The monopoly may simply be unenforceable in some markets. Aside from these concerns, royalties are a desirable passive income stream.
+Of these, the most common in today's developed markets is certainly royalties or Intellectual Property. Often used in tandem with the others, the primary drive for use of this method is that once a legal monopoly has been granted, an idea can be used by specifically selected third parties without fear of "idea theft." Because any competitive use of the idea is forbidden legally, the idea can be shared and utilized as an open secret. In practice, this method requires bureaucratic navigation, legal negotiations, and long term billing/recovery operations. The monopoly may simply be unenforceable in some markets. Aside from these concerns, royalties are a desirable passive income stream.
 
-The second most common method is Direct Use. Direct Use is when a party with access to the invention sells copies of it or uses it as a capital in the production of some final commercial good or service. The invention is a key resource that allows that business to differentiate itself in the eyes of consumers. Some inventions may be operated directly as a service, as demonstrated in the software as a service (SaaS) model.
+The second most common method is Direct Use. Direct Use is when a party with access to the invention sells copies of it or uses it as a capital in the production of some final commercial good or service. Some inventions may be operated directly as a service, as demonstrated in the software as a service (SaaS) model.
 
 Arguably the least efficient method is Indirect Services. This method allows the inventor to continue contributing to and working on their invention, but not in a dominant role. The income has to be actively earned and the nature of this work may be very different from the initial R & D. Strategies for Indirect Services involve providing maintenance, support, consulting, or collaborating on related, hopefully profitable projects.
 
 ### Economics of Open Source
 
-Open Source is a term used for a project which has explicitly forbidden legal monopoly, or in economics jargon, is in "the commons." Yes, these are the same infamously subject to "[the tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)". Unlike physical commons, however, intellectual ones are not a limited resource. This may make intellectual commons more heroic and less tragic.
+Open Source is a term used for a project which has explicitly forbidden legal monopoly, or in economics jargon, is in "the commons." Yes, these are the same infamously subject to "[the tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)". Unlike physical commons, however, intellectual ones are not a limited resource. This may make them more heroic and less tragic.
 
 Open projects can be read, used, and expanded on by anyone. This obviously is the best deal for users, who get access to the invention for the lowest possible price. In the case of open source ideas, like software or media, the price is usually zero. On the other hand, this minimal price underscores a deep problem for the inventors and contributing developers of the project. How can they recoup the cost of their contributions? Why should they contribute at all?
 
@@ -94,7 +94,7 @@ If accepted, the sponsored project will be given a grant, and will be entitled t
 ##### 6. Operations and Revenue Stream
 As sponsored projects launch and begin their own commercial operations, they enter the main phase of the Support Agreement. They may have ongoing requests both regular and for new/expansive development efforts. The mentor will provide ongoing assistance with these efforts as the agreement specifies. For their part, the sponsored project makes Support Agreement payments to the incubator, where they will be further split between the mentor and sponsor.
 
-![rdov]({{ "/img/RDOV.jpg" | prepend: site.baseurl }})
+![rdov]({{ "/img/RDOV.png" | prepend: site.baseurl }})
 
 How does the RDOV model align incentives?
 

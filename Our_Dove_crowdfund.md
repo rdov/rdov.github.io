@@ -189,7 +189,7 @@ All are cumulative.
 
 ### Stretch Development
 
-If the campaign reaches one or more stretch goals, these will be added one by one after the MVP launch.
+If the campaign reaches one or more stretch goals, these will be added sequentially after the MVP launch.
 
 ## Resources
 
@@ -218,9 +218,9 @@ This should be done using [99designs](https://99designs.com) tasks, which costs 
 
 All software developed by or on behalf of Our Dove will use the [MIT license](http://opensource.org/licenses/MIT).
 
-All legal and technical documents developed by or on behalf of Our Dove will use [CC by 4.0](https://creativecommons.org/licenses/by/4.0/)
+All legal and technical documents developed by or on behalf of Our Dove will use [CC by 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Our Dove will give preference to open source partners
+Our Dove will give preference to open source partners.
 
 ### Disclaimers
 
