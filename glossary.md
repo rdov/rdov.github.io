@@ -7,6 +7,8 @@ permalink: /glossary/
 
 *Developer* - The inventor or technical contributor of a project
 
+*Direct Use* - A revenue model where an invention is actively used or sold.
+
 *F/OSS* - Free and Open Source Software
 
 *FDT* - An abbreviation for Future Development Thesis
@@ -18,6 +20,8 @@ permalink: /glossary/
 *Incubator* - A partnership between a Sponsor and a Mentor to provide comprehensive resources to new projects which use the Mentor's expertise.
 
 *Incubator Project* - A project which has an incubator dedicated (at least in part) to it.
+
+*Indirect Services* - A revenue model where complimentary services are provided for an invention.
 
 *Intellectual Property* - An idea over which the government has granted a monopoly of use.
 
