@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research & Develop Open Ventures
+title: Whitepaper
 weight: 0
 permalink: /
 ---
