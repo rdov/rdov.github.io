@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Research & Develop Open Ventures Whitepaper
+title: Research & Develop Open Ventures
 weight: 0
-permalink: /whitepaper/
+permalink: /
 ---
 
 *A business model for sustainable R & D of open source projects.*
