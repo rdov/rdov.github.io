@@ -180,12 +180,12 @@ All are cumulative.
 | Date | Goal | Owner | Description |
 |--------|---------|-------|-------------|
 | 15/12/15 | Code begin | Deginner | Officially begin coding on the Our Dove MVP. |
-| 1/1/16 | Our Dove legal alpha | Cindy | Produce and share with supporters alpha drafts of the Support and Sponsor agreements. |
-| 2/1/16 | Our Dove alpha | Deginner | functionally complete alpha build of Our Dove app shared with top tier supporters |
-| 1/2/16 | Our Dove legal beta | Cindy | Produce check in to repos beta versions of the Support and Sponsor agreements. |
-| 2/2/16 | Our Dove beta | Deginner | functionally complete and free of significant bug build of Our Dove app shared with all supporters |
-| */2/16 | beta rewards dispersal | * | Provide assistance and setup for founding mentors and sponsors prior to launch. Deginner technical consultings are open for scheduling. |
-| 1/3/16 | Our Dove launch | Deginner | Public launch of MVP Our Dove app |
+| 15/1/16 | Our Dove legal alpha | Cindy | Produce and share with supporters alpha drafts of the Support and Sponsor agreements. |
+| 16/1/16 | Our Dove alpha | Deginner | functionally complete alpha build of Our Dove app shared with top tier supporters |
+| 15/2/16 | Our Dove legal beta | Cindy | Produce check in to repos beta versions of the Support and Sponsor agreements. |
+| 16/2/16 | Our Dove beta | Deginner | functionally complete and free of significant bug build of Our Dove app shared with all supporters |
+| ------- | beta rewards dispersal | * | Provide assistance and setup for founding mentors and sponsors prior to launch. Deginner technical consultings are open for scheduling. |
+| 15/3/16 | Our Dove launch | Deginner | Public launch of MVP Our Dove app |
 
 ### Stretch Development
 
@@ -203,7 +203,7 @@ Use [goanimate](http://goanimate.com) to do these videos ourselves. As the topic
 |------|---------------|-------------|
 | Our Dove crowdfunding | 3 min. | Lifecycle of a support then support/sponsorship agreement. Highlights how easy it is to monetize open source projects. Turn your github project into bitcoin today! Advertise our crowdsale |
 | Our Dove for Developers | 1 min. | How developers and project maintainers can use Our Dove. |
-| Our Dove for Consumers | 1 min. | How comsumers can use Our Dove to shop for open source projects and related services. |
+| Our Dove for Consumers | 1 min. | How consumers can use Our Dove to shop for open source projects and related services. |
 | Our Dove for Sponsors | 1 min. | How sponsors can use and get repaid for sponsoring open source projects on Our Dove. |
 
 ### Application Mockups
