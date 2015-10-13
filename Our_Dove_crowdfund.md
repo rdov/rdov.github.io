@@ -30,7 +30,7 @@ Sponsors
 
  * Sponsor projects in return for revenue sharing
 
- * Funds are safe in mulsignature bitcoin wallet until you sign on each project.
+ * Funds are safe in multisignature bitcoin wallet until you sign on each project.
 
 ### Technical specs (MVP)
 Our Dove will be a multisignature bitcoin wallet that lets users link github projects and negotiate support and sponsorship agreements for said projects.
@@ -52,10 +52,10 @@ Our Dove will be a multisignature bitcoin wallet that lets users link github pro
 
  * default Support and Sponsorship agreement templates
  * Mentors and Sponsors configure and offer agreements
- * * Can find each other and accept/negotiate sponsorship agreements.
+     * Can find each other and accept/negotiate sponsorship agreements.
  * New and existing projects
- * * Apply for sponsorships
- * * Apply for support services
+     * Apply for sponsorships
+     * Apply for support services
 
  Directory
 
@@ -139,7 +139,6 @@ All are cumulative.
 | Cindy Zimmerman | Our Dove | CEO | Manage Our Dove operations, marketing, finances, etc. |
 | Ira Miller | Deginner | Co-Founder | Creator of the [Research & Develop Open Ventures]({{ "/" | prepend: site.baseurl }}) business model. Advisor and developer for Our Dove. |
 | Guilherme Polo | Deginner | Co-Founder | Primary developer of the Deglet app which will be the backbone of ourdove.com. Architect and Engineering manager for Our Dove project. |
-| Robinson Dorion | Deginner | Community Manager | Organize the Our Dove software community, and create channels for reporting requests and bugs. |
 
 The Our Dove team consists of a partnership between two organizations: open source software development firm Deginner and a newly formed company Our Dove.
 
