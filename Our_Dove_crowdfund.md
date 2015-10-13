@@ -38,11 +38,11 @@ Our Dove will be a multisignature bitcoin wallet that lets users link github pro
  [Deglet](http://deglet.xyz) fork
 
  * Deglet is an open source, multisig wallet
- * React.js provides real-time updates
- * Bitcore, insight backend is (relatively) reliable and open stack
+ * [React.js](http://facebook.github.io/react/), a modern javascript framework
+ * [Bitcore](http://bitcore.io/)
  * Sponsors and Mentors will be able to create 2 of 2 wallets for managing incubator funds.
 
- Github integration
+ [Github](https://github.com) integration
 
  * Link accounts
  * Verify project ownership/commits
@@ -65,7 +65,7 @@ Our Dove will be a multisignature bitcoin wallet that lets users link github pro
 
  Coinapult
 
- * Coinapult will be integrated to allow Our Dove users to convert BTC balances to fiat when desirable.
+ * [Coinapult](https://coinapult.com) will be integrated to allow Our Dove users to convert BTC balances to fiat when desirable.
 
 ## Finance
 
@@ -85,9 +85,9 @@ $150,000 - m of n wallets for organizing Accountants, Arbitrators, and software 
 
 $200,000 - Allow custom support and sponsorship agreements to be submitted
 
-$250,000 - CRM (TBD partially by supporter votes) integration
+$250,000 - Front-line Support outsourcing for projects
 
-$300,000 - Support (TBD partially by supporter votes) integration
+$300,000 - Hosting and DevOps oursourcing for projects
 
 $400,000 - Explore ways to support other types of agreements and sponsorships such as for artistic collaboration, hardware or general microfinance.
 
