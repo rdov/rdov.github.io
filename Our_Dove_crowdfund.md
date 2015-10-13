@@ -52,10 +52,10 @@ Our Dove will be a multisignature bitcoin wallet that lets users link github pro
 
  * default Support and Sponsorship agreement templates
  * Mentors and Sponsors configure and offer agreements
- ** Can find each other and accept/negotiate sponsorship agreements.
+     * Can find each other and accept/negotiate sponsorship agreements.
  * New and existing projects
- ** Apply for sponsorships
- ** Apply for support services
+     * Apply for sponsorships
+     * Apply for support services
 
  Directory
 
