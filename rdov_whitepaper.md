@@ -133,4 +133,4 @@ Our Dove should be [crowdfunded]({{ "/OurDoveCrowdfund/" | prepend: site.baseurl
 
 ##### Disclaimer
 
-The contributors views and opinions are their own. Google, Android, The Linux Foundation, Deginner, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respctive owners. No relationship or association is intended or implied.
+The contributors views and opinions are their own. Google, Android, The Linux Foundation, Deginner, Our Dove and all other proper nouns, copyright, trademark, and otherwise property of their respective owners. No relationship or association is intended or implied.
