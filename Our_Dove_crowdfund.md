@@ -53,26 +53,35 @@ Cindy Zimmerman was chosen as CEO for Our Dove because of her technical and mana
 Our Dove will be a multisignature bitcoin wallet that lets users link github projects and negotiate support and sponsorship agreements for said projects.
 
  [Deglet](http://deglet.xyz) fork
+
  * Deglet is an open source, multisig wallet
  * React.js provides real-time updates
  * Bitcore, insight backend is (relatively) reliable and open stack
  * Sponsors and Mentors will be able to create 2 of 2 wallets for managing incubator funds.
+
  Github integration
+
  * Link accounts
  * Verify project ownership/commits
  * Interactive Badges for showing support, sponsorship options in README files.
+
  Agreements
+
  * default Support and Sponsorship agreement templates
  * Mentors and Sponsors configure and offer agreements
  * * Can find each other and accept/negotiate sponsorship agreements.
  * New and existing projects
  * * Apply for sponsorships
  * * Apply for support services
+
  Directory
+
  * Find and research open source projects
  * Find project maintainers, and incubators
  * Find support and sponsorships for projects
+
  Coinapult
+
  * Coinapult will be integrated to allow Our Dove users to convert BTC balances to fiat when desirable.
 
 ### Partners
