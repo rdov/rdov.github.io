@@ -35,11 +35,13 @@ permalink: /glossary/
 
 *Open Source* - The code or recipe for a project is openly available for the public to read and adapt.
 
-*Open Venture* - A project or business that uses primarily open source technology to achieve its goals.
+*Open Venture* - A for-profit project or business that uses primarily open source technology to achieve its goals.
 
 *R&D* - An abbreviation for Research & Development
 
 *RDOV* - An abbreviation for Reserach & Develop Open Ventures
+
+*Reserach & Develop Open Ventures* - A business model where open source project developers form incubators to participate the next generation of projects.
 
 *SaaS* - An abbreviation for Software as a Service
 
