@@ -139,7 +139,6 @@ All are cumulative.
 | Cindy Zimmerman | Our Dove | CEO | Manage Our Dove operations, marketing, finances, etc. |
 | Ira Miller | Deginner | Co-Founder | Creator of the [Research & Develop Open Ventures]({{ "/" | prepend: site.baseurl }}) business model. Advisor and developer for Our Dove. |
 | Guilherme Polo | Deginner | Co-Founder | Primary developer of the Deglet app which will be the backbone of ourdove.com. Architect and Engineering manager for Our Dove project. |
-| Robinson Dorion | Deginner | Community Manager | Organize the Our Dove software community, and create channels for reporting requests and bugs. |
 
 The Our Dove team consists of a partnership between two organizations: open source software development firm Deginner and a newly formed company Our Dove.
 
