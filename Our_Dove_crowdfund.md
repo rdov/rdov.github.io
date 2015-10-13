@@ -32,23 +32,6 @@ Sponsors
 
  * Funds are safe in mulsignature bitcoin wallet until you sign on each project.
 
-### Team
-
-| Person | Company | Title | Description |
-|--------|---------|-------|-------------|
-| Cindy Zimmerman | Our Dove | CEO | Manage Our Dove operations, marketing, finances, etc. |
-| Ira Miller | Deginner | Co-Founder | Creator of the [Research & Develop Open Ventures]({{ "/" | prepend: site.baseurl }}) business model. Advisor and developer for Our Dove. |
-| Guilherme Polo | Deginner | Co-Founder | Primary developer of the Deglet app which will be the backbone of ourdove.com. Architect and Engineering manager for Our Dove project. |
-| Robinson Dorion | Deginner | Community Manager | Organize the Our Dove software community, and create channels for reporting requests and bugs. |
-
-The Our Dove team consists of a partnership between two organizations: open source software development firm Deginner and a newly formed company Our Dove.
-
-Deginner is a pure R & D firm. Though the business model that inspires Our Dove (RDOV) and the software stack that will run it (Deglet) originate with Deginner, all operations will be managed by the Our Dove company.
-
-Deginner has offered to develop and provide long term support for the Our Dove platform. In addition, Deginner will donate some of the crowdfunding rewards. Deginner is motivated to expand use of the RDOV model, and looks forward to collaborating with other R & D teams using the Our Dove platform.
-
-Cindy Zimmerman was chosen as CEO for Our Dove because of her technical and managerial background, as well as her passion for collaborative business. Her extensive network in private, public and academic software circles will be instrumental in attracting the diverse and high-quality users that Our Dove needs to thrive.
-
 ### Technical specs (MVP)
 Our Dove will be a multisignature bitcoin wallet that lets users link github projects and negotiate support and sponsorship agreements for said projects.
 
@@ -83,30 +66,6 @@ Our Dove will be a multisignature bitcoin wallet that lets users link github pro
  Coinapult
 
  * Coinapult will be integrated to allow Our Dove users to convert BTC balances to fiat when desirable.
-
-### Partners
-
-Our Dove will be integrated with a number of third party services that will add value for the users. Providing these sorts of value adds are the main way that the Our Dove company intends to monetize the service in the long term.
-
-#### Coinapult
-
-[Coinapult](https://coinapult.com) is a Bitcoin payment processor established in 2012 by Deginner Co-Founder Ira Miller. Coinapult will provide low-cost currency conversions for Our Dove users who wish to avoid exchange rate volatility.
-
-#### Crypto Capital
-
-[Crypto Capital](https://cryptocapital.co) is a government regulated financial institution with the ability to transmit money around the world. Our Dove users will optionally be able to use Crypto Capital to deposit and withdraw money via the banking system. Crypto Capital also offers prepaid visa cards, which Our Dove members can purchase.
-
-#### Support outsourcing (TBD)
-
-We expect a significant percentage of Our Dove mentors to be individuals or small teams. These may not be well equipped for front-line support, due to limited availability and training. Our Dove hopes to partner with a support outsourcing firm to provide front-line support on a package by package basis. The support agents will be trained to use github issue trackers and will look for bug reports or create new ones based on user feedback.
-
-#### Developer Operations outsourcing (TBD)
-
-Hosting and more generalized Developer Operations are a common and valuable sevice to provide for a project. By partnering with hosting and DevOps specialists, Our Dove will facillitate easy outsourcing of these services.
-
-#### Corporate services outsourcing (TBD)
-
-Some projects may grow to the point where they begin to have complex operations and require corporate services. Our Dove will try to identify and make available high-quality corporate services for the users.
 
 ## Finance
 
@@ -173,6 +132,46 @@ All are cumulative.
 | MVP Development | $30,000 | 600 man-hours billed at expected average billing rate $50/h over the 4 month period following the successful completion of the campaign. | 15/12/15 |
 | Stretch Goal Development | $* | Expected average billing rate $50/h | 1/3/16 |
 
+## Team
+
+| Person | Company | Title | Description |
+|--------|---------|-------|-------------|
+| Cindy Zimmerman | Our Dove | CEO | Manage Our Dove operations, marketing, finances, etc. |
+| Ira Miller | Deginner | Co-Founder | Creator of the [Research & Develop Open Ventures]({{ "/" | prepend: site.baseurl }}) business model. Advisor and developer for Our Dove. |
+| Guilherme Polo | Deginner | Co-Founder | Primary developer of the Deglet app which will be the backbone of ourdove.com. Architect and Engineering manager for Our Dove project. |
+| Robinson Dorion | Deginner | Community Manager | Organize the Our Dove software community, and create channels for reporting requests and bugs. |
+
+The Our Dove team consists of a partnership between two organizations: open source software development firm Deginner and a newly formed company Our Dove.
+
+Deginner is a pure R & D firm. Though the business model that inspires Our Dove (RDOV) and the software stack that will run it (Deglet) originate with Deginner, all operations will be managed by the Our Dove company.
+
+Deginner has offered to develop and provide long term support for the Our Dove platform. In addition, Deginner will donate some of the crowdfunding rewards. Deginner is motivated to expand use of the RDOV model, and looks forward to collaborating with other R & D teams using the Our Dove platform.
+
+Cindy Zimmerman was chosen as CEO for Our Dove because of her technical and managerial background, as well as her passion for collaborative business. Her extensive network in private, public and academic software circles will be instrumental in attracting the diverse and high-quality users that Our Dove needs to thrive.
+
+### Partners
+
+Our Dove will be integrated with a number of third party services that will add value for the users. Providing these sorts of value adds are the main way that the Our Dove company intends to monetize the service in the long term.
+
+#### Coinapult
+
+[Coinapult](https://coinapult.com) is a Bitcoin payment processor established in 2012 by Deginner Co-Founder Ira Miller. Coinapult will provide low-cost currency conversions for Our Dove users who wish to avoid exchange rate volatility.
+
+#### Crypto Capital
+
+[Crypto Capital](https://cryptocapital.co) is a government regulated financial institution with the ability to transmit money around the world. Our Dove users will optionally be able to use Crypto Capital to deposit and withdraw money via the banking system. Crypto Capital also offers prepaid visa cards, which Our Dove members can purchase.
+
+#### Support outsourcing (TBD)
+
+We expect a significant percentage of Our Dove mentors to be individuals or small teams. These may not be well equipped for front-line support, due to limited availability and training. Our Dove hopes to partner with a support outsourcing firm to provide front-line support on a package by package basis. The support agents will be trained to use github issue trackers and will look for bug reports or create new ones based on user feedback.
+
+#### Developer Operations outsourcing (TBD)
+
+Hosting and more generalized Developer Operations are a common and valuable sevice to provide for a project. By partnering with hosting and DevOps specialists, Our Dove will facillitate easy outsourcing of these services.
+
+#### Corporate services outsourcing (TBD)
+
+Some projects may grow to the point where they begin to have complex operations and require corporate services. Our Dove will try to identify and make available high-quality corporate services for the users.
 
 ## Timeline
 
