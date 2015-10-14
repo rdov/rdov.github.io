@@ -7,7 +7,9 @@ permalink: /
 
 *A business model for sustainable R&D of open source projects.*
 
-Research & Develop Open Ventures or RDOV is a business model centered around the open source developer and ensuring economic viability for the project though balanced incentives. By using an open source licence then agressively establishing an incubator for direct and indirect applications of their project, a developer can lead rather than monopolize the market. This mixture of free and open use of an idea with strategic leverage of the inventor's position should allow for a more fair and effecient outcome than either the closed or open R&D models in practice today.
+Research & Develop Open Ventures or RDOV is a business model centered around the open source developer and ensuring economic viability for the project though balanced incentives.
+  
+By using an open source licence then aggressively establishing an incubator for applications of their project, a developer can lead rather than monopolize the market. This mixture of free and open use of an idea with strategic leverage of the inventor's position should allow for a more fair and efficient outcome than either the closed or open R&D models in practice today.
 
 ### Invention In Markets
 In a market, being an inventor alone is not enough to pay the bills. An inventor who tucks their idea away in a drawer until death will never see any benefit from it. To create value, the idea must be put to use and ultimately adapted to solve some consumer desire. There are three generic methods an inventor can monetize, or participate in market use of, their idea.
@@ -54,7 +56,7 @@ This misalignment of incentives, skills and resources is what makes open source 
 
 #### Support
 
-Support can span the range from ongoing development and maintenance to live chat, DevOps, architectural advising, and more. These are Indirect Services that open source developers provide to suppliment their projects. Often the need or desire for this support is engineered into an open source project, sacrificing UX for monetization. This monetization optimization is not necessary with RDOV, but they are not mutually exclusive either.
+Support can span the range from ongoing development and maintenance to live chat, DevOps, architectural advising, and more. These are Indirect Services that open source developers provide to supplement their projects. Often the need or desire for this support is engineered into an open source project, sacrificing UX for monetization. This monetization optimization is not necessary with RDOV, but they are not mutually exclusive either.
 
 While some support activities may come easily to developers, it is unlikely that an individual or small R&D team would have all of the skills and availability that support clients desire. Many open source projects have succeeded at this by incorporating and hiring specialized labor that will do much of the billable work. Ideally, this could be outsourced to a firm with 24/7 availability, who would read, comment on, and open new project issues based on their calls and complaints. If this outsourcing is accomplished, the developers may primarily receive the digested and technically formatted bug reports and feature requests that they expect.
 
@@ -70,7 +72,7 @@ Often the developers recognize the capital nature of their invention and become 
 
 This is a very long-term, Indirect Services strategy, but if successful gives the developer a full career. Once a developer has produced a successful open source project, anyone can see and evaluate their capabilities. This open evaluation should lead to good-match partnerships.
   
-One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplimental income or a significant savings reserve is available to the developer.
+One issue is that the up front work and subsequent build out time of the co-founded venture mean the developer doesn't get paid for a long time. Often the co-founded venture is not guaranteed to be profitable, either, in which case the developer undertook one free and then one unprofitable venture in a row. This strategy should only be undertaken if supplemental income or a significant savings reserve is available to the developer.
 
 ## Aligning Incentives with RDOV Incubators
 
@@ -82,7 +84,7 @@ At first glance, this may sound like the Indirect Services of open source softwa
 The mentor or incubator project developer sets terms of participation in Support Agreement. This lays out the assistance and access the mentor is willing to give, and what is requested in return. For example the mentor could contribute ongoing development, mantainence, ticket support, operations assistance or even a CTO-style package in return for time-based billing and/or revenue sharing. This Support Agreement can be used as a stand alone contract, or in the greater context of an incubator.
 
 ##### 2. Future Development Thesis
-Mentor writes Future Development Thesis (FDT) to illustrate what could and potentially will be built with the incubator project. This should be targeted at a specific category of sponsored project or applicant demographic, as each incubator exists to develop the thesis layed out in the FDT. There is a one to one relationship between FDTs and incubators.
+Mentor writes Future Development Thesis (FDT) to illustrate what could and potentially will be built with the incubator project. This should be targeted at a specific category of sponsored project or applicant demographic, as each incubator exists to develop the thesis laid out in the FDT. There is a one to one relationship between FDTs and incubators.
 
 ##### 3. Proposal for Sponsors
 Mentor proposes creation of an incubator which will sponsor projects based on the FDT, and the inventor's contributions promised in the Support Agreement. In the proposal, the mentor offers a financial plan for the incubator. The financial plan should include a sponsor who will provide grant funding for sponsored projects in return for a share of revenue from Support Agreement payments. If the mentor is not experienced at finance, the sponsor may propose a financial plan for the incubator. The two may also negotiate, of course.
@@ -101,13 +103,13 @@ As sponsored projects launch and begin their own commercial operations, they ent
 
 How does the RDOV model align incentives?
 
-The mentor is able to create a career working creatively on their incubated project as well as specially chosen successors, while receiving both short and long-term income. By defining the terms up front, the mentor is easily able to budget and plan to outsource supplimental services such as front-line support or hosting. This leaves the core intellectual work to accomplish, which the mentor is an expert at. Even if the sponsored projects lose out to a third party, that party may also want a standalone Support Agreement with the mentor. The grant money will have paid for the mentors time if all else fails.
+The mentor is able to create a career working creatively on their incubated project as well as specially chosen successors, while receiving both short and long-term income. By defining the terms up front, the mentor is easily able to budget and plan to outsource supplemental services such as front-line support or hosting. This leaves the core intellectual work to accomplish, which the mentor is an expert at. Even if the sponsored projects lose out to a third party, that party may also want a standalone Support Agreement with the mentor. The grant money will have paid for the mentors time if all else fails.
 
 The sponsor is able to invest in a specific thesis with the guarantee of expert, long term technical guidance on execution. Because the mentor's incubator project and sponsored projects are open source, the sponsor has complete visibility into the value proposition and results. The mentor is also an expert technical investment advisor, filtering unqualified applicants and infeasible projects from the investment pool.
 
 The sponsored project receives an open and well maintained platform to build or operate on, as well as the mentoring and support of the platform developers. This may greatly reduce time to launch, and will certainly reduce long term maintenance costs. Whether a sponsored project is another open venture or a corporation, there is no better assistance they could ask for than the mentor's.
 
-Consumers win because a viable and thriving open source R&D sector means more open source products. Open source products give consumers control, choice, and privacy. More R&D being open should accelerate even the closed R&D pace through free cross-polination of ideas.
+Consumers win because a viable and thriving open source R&D sector means more open source products. Open source products give consumers control, choice, and privacy. More R&D being open should accelerate even the closed R&D pace through free cross-pollination of ideas.
 
 ## Open Ventures: A New Organizational Paradigm
 
@@ -119,7 +121,7 @@ Using the RDOV model, open ventures can be chained to create vertically integrat
 
 Support Agreements and Grants are much less strict, regulated, and complex than incorporation and securities. They are something that individuals or small teams can easily interface with. They are uniquely suited to the environment of open source development, where the contributors may have no geographic relationship, or formal organization and may be using pseudonyms.
 
-Open ventures may start as individuals or small, informal R&D teams. These teams may arrange themselves on the fly, do real, openly verifyable work and support, receive payment in cryptocurrencies, and either expand to economies of scale using these contracts and structure, or simply disband. The low barrier to entry and rapid project lifecycle should produce a wealth of open ventures. On the successful end of the spectrum, it is not clear where the limits of the legal structure is. It may be possible that an individual or small team of developers could operate a very large scale open venture, comparable with any corporation.
+Open ventures may start as individuals or small, informal R&D teams. These teams may arrange themselves on the fly, do real, openly verifiable work and support, receive payment in cryptocurrencies, and either expand to economies of scale using these contracts and structure, or simply disband. The low barrier to entry and rapid project lifecycle should produce a wealth of open ventures. On the successful end of the spectrum, it is not clear where the limits of the legal structure is. It may be possible that an individual or small team of developers could operate a very large scale open venture, comparable with any corporation.
 
 ## Future Development Thesis
 
@@ -129,9 +131,9 @@ The RDOV business model is based on industry best-practices but untested in spec
 
 This whitepaper and other generic RDOV resources such as use cases and sample contracts will be hosted on the rdov.co domain as a public service by Deginner.
 
-To provide a funding and organization framework for RDOV development, a franchise should be created which will facillitate best practices for Open Ventures. This will take the form of a web app named Our Dove. The franchise aspect of Our Dove will be to offer a UX framework as well as supplimentary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users while giving the Our Dove corporation a long-term incentive for experimentation, development and marketing of the RDOV model itself.
+To provide a funding and organization framework for RDOV development, a franchise should be created which will facilitate best practices for Open Ventures. This will take the form of a web app named Our Dove. The franchise aspect of Our Dove will be to offer a UX framework as well as supplementary outsourcing for front line support, hosting, DevOps and other services. This should allow greater and greater specialization and focus for users while giving the Our Dove corporation a long-term incentive for experimentation, development and marketing of the RDOV model itself.
 
-Our Dove should be [crowdfunded]({{ "/OurDoveCrowdfund/" | prepend: site.baseurl }}), to encourage community involvement from day one. As concensus contracts and best practices emerge, Our Dove will incorporate them into its UX. Through crowdfunding, Our Dove will be the first sponsored project, even before the [Founding Incubator]({{ "/FoundingIncubator/" | prepend: site.baseurl }}) is created. Deginner will be the mentor, providing the application framework [Deglet](http://deglet.xyz). Its sponsors will be the crowdfunding supporters. Its users will be generation after generation of RDOV-style ventures leveraging the tools and services Our Dove creates.
+Our Dove should be [crowdfunded]({{ "/OurDoveCrowdfund/" | prepend: site.baseurl }}), to encourage community involvement from day one. As consensus contracts and best practices emerge, Our Dove will incorporate them into its UX. Through crowdfunding, Our Dove will be the first sponsored project, even before the [Founding Incubator]({{ "/FoundingIncubator/" | prepend: site.baseurl }}) is created. Deginner will be the mentor, providing the application framework [Deglet](http://deglet.xyz). Its sponsors will be the crowdfunding supporters. Its users will be generation after generation of RDOV-style ventures leveraging the tools and services Our Dove creates.
 
 ##### Disclaimer
 
