@@ -1,0 +1,12 @@
+{
+  "name": "rdov.co website",
+  "description": "Static website for rdov.co",
+  "keywords": [
+    "jekyll",
+    "unicorn",
+    "static site"
+  ],
+  "repository": "https://github.com/rdov/rdov.github.io",
+  "success_url": "/"
+}
+
