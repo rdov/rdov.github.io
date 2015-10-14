@@ -8,8 +8,7 @@ permalink: /
 *A business model for sustainable R&D of open source projects.*
 
 Research & Develop Open Ventures or RDOV is a business model centered around the open source developer and ensuring economic viability for the project though balanced incentives.
-  
-By using an open source licence then aggressively establishing an incubator for applications of their project, a developer can lead rather than monopolize the market. This mixture of free and open use of an idea with strategic leverage of the inventor's position should allow for a more fair and efficient outcome than either the closed or open R&D models in practice today.
+By using an open source license then aggressively establishing an incubator for applications of their project, a developer can lead rather than monopolize the market. This mixture of free and open use of an idea with strategic leverage of the inventor's position should allow for a more fair and efficient outcome than either the closed or open R&D models in practice today.
 
 ### Invention In Markets
 In a market, being an inventor alone is not enough to pay the bills. An inventor who tucks their idea away in a drawer until death will never see any benefit from it. To create value, the idea must be put to use and ultimately adapted to solve some consumer desire. There are three generic methods an inventor can monetize, or participate in market use of, their idea.
@@ -81,7 +80,7 @@ If inventors and developers are to continue to provide innovative, high quality,
 At first glance, this may sound like the Indirect Services of open source software business model that heavily favors enterprise corporations. In fact it is that same model, but tweaked to allow the developer to maintain their initial lead, leapfrog the barriers to entry, and outsource non-R&D services. Here is how an incubator operates.
 
 ##### 1. Support Agreement
-The mentor or incubator project developer sets terms of participation in Support Agreement. This lays out the assistance and access the mentor is willing to give, and what is requested in return. For example the mentor could contribute ongoing development, mantainence, ticket support, operations assistance or even a CTO-style package in return for time-based billing and/or revenue sharing. This Support Agreement can be used as a stand alone contract, or in the greater context of an incubator.
+The mentor or incubator project developer sets terms of participation in Support Agreement. This lays out the assistance and access the mentor is willing to give, and what is requested in return. For example the mentor could contribute ongoing development, maintenance, ticket support, operations assistance or even a CTO-style package in return for time-based billing and/or revenue sharing. This Support Agreement can be used as a stand alone contract, or in the greater context of an incubator.
 
 ##### 2. Future Development Thesis
 Mentor writes Future Development Thesis (FDT) to illustrate what could and potentially will be built with the incubator project. This should be targeted at a specific category of sponsored project or applicant demographic, as each incubator exists to develop the thesis laid out in the FDT. There is a one to one relationship between FDTs and incubators.
