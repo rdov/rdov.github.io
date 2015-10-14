@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Founding Incubator</title>
+  <meta name="description" content="RDOV is licensed under CC BY 4.0. © 2015 Deginner.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1">
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/solo.css">
+  
+  <link rel="stylesheet" href="/css/prism.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="canonical" href="http://rdov.github.io//FoundingIncubator/">
+  <link rel="alternate" type="application/rss+xml" title="Research & Develop Open Ventures (RDOV)" href="http://rdov.github.io//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="/">Research & Develop Open Ventures (RDOV)</a>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="container">
+        <div class="improve">
+  <a href="https://github.com/rdov/rdov.github.io/edit/master/founding_incubator.md" target="_blank" title="Edit this page">
+    <i class="fa fa-pencil"></i>
+  </a>
+</div>
+
+
+        <article>
+          <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title" id="guide-intro">Founding Incubator</h2>
+    <!--<p class="post-meta"></p>-->
+  </header>
+
+  <article class="post-content">
+    <p>This slide deck is an example of a sponsorship proposal with financial summary. It is a real world example as Deginner will use it to create the Our Dove Founding Incubator. This Founding Incubator will be formed in coordination with the Our Dove app to sponsor the first generation of Open Ventures.</p>
+
+<p>While the deck itself is provided with a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license, the Deginner and Our Dove logos and brands are copyright and reserved.</p>
+
+<iframe style="width: 640px; height: 580px; border: 0;" src="https://speakerdeck.com/player/66d982d14d154764b09ca2e8bc20898d"> </iframe>
+
+  </article>
+
+</div>
+
+        </article>
+
+        
+        <div class="top-pages">
+          <hr/>
+          <h2>Contents</h2>
+          <ul class="post-list">
+  
+  
+  
+    
+  
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/">RDOV Whitepaper</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      → Founding Incubator
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/OurDoveCrowdfund/">Our Dove Crowdfund</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/faq/">FAQ</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/resources/">Background Resources</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/glossary/">Glossary</a>
+      
+    </li>
+    
+  
+</ul>
+
+        </div>
+        
+
+        
+      </div>
+
+      
+      <div class="left-menu">
+        <div id="toc" class="toc left-menu-wrapper"></div>
+        <div class="top-pages">
+          <hr id="hr-toc" />
+          <div class="left-menu-wrapper">
+            <i>Contents</i>
+            <ul class="post-list">
+  
+  
+  
+    
+  
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/">RDOV Whitepaper</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      → Founding Incubator
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/OurDoveCrowdfund/">Our Dove Crowdfund</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/faq/">FAQ</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/resources/">Background Resources</a>
+      
+    </li>
+    
+  
+    
+    <li>
+      
+      <a class="post-link" href="/glossary/">Glossary</a>
+      
+    </li>
+    
+  
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <p class="text">RDOV is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br/> © 2015 Deginner.</p>
+  </div>
+</footer>
+
+    
+<script src="/js/prism.js"></script>
+
+
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $(window).bind('scroll', function () {
+      $('.left-menu').toggleClass('left-menu-fixed', $(window).scrollTop() > 132);
+    });
+
+    $('#toc').toc({minimumHeaders: 2, noBackToTopLinks: true});
+    var elements = $('h2, h3, h4');
+    var elemCount = 0;
+
+    /* Set up way points. */
+    elements.each(function() {
+      if (!this.id) {
+        return;
+      }
+      elemCount++;
+
+      var elem = this.id;
+      var wp = new Waypoint({
+        element: $('#' + elem),
+        handler: function() {
+          $('#toc a').removeClass('waypoint');
+          $('#toc a[href=#' + elem + ']').toggleClass('waypoint');
+        },
+        offset: 125
+      });
+    });
+
+    if (elemCount < 2) {
+      $('#hr-toc').hide();
+    }
+
+  });
+</script>
+
+
+  </body>
+
+</html>
