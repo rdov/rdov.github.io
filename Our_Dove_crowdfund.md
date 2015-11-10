@@ -178,21 +178,21 @@ Some projects may grow to the point where they begin to have complex operations 
 
 | Date | Goal | Owner | Description |
 |--------|---------|-------|-------------|
-| 15/11/15 | Crowdfunding launch | * | Public launch for the Crowdfunding campaign. Embargo date for PR. |
+| Day 45 | Crowdfunding launch | * | Public launch for the Crowdfunding campaign. Embargo date for PR. |
 | -------- | Events and promotion | * | Do podcasts, speaches, public events, and any promotion appropriate to attract crowdfunding contributions. |
-| 15/12/15 | Crowdfunding end | * | End date for the Crowdfunding campaign. |
+| Day 77 | Crowdfunding end | * | End date for the Crowdfunding campaign. |
 
 ### MVP Development
 
 | Date | Goal | Owner | Description |
 |--------|---------|-------|-------------|
-| 15/12/15 | Code begin | Deginner | Officially begin coding on the Our Dove MVP. |
-| 15/1/16 | Our Dove legal alpha | Cindy | Produce and share with supporters alpha drafts of the Support and Sponsor agreements. |
-| 16/1/16 | Our Dove alpha | Deginner | functionally complete alpha build of Our Dove app shared with top tier supporters |
-| 15/2/16 | Our Dove legal beta | Cindy | Produce check in to repos beta versions of the Support and Sponsor agreements. |
-| 16/2/16 | Our Dove beta | Deginner | functionally complete and free of significant bug build of Our Dove app shared with all supporters |
+| Day 77 | Code begin | Deginner | Officially begin coding on the Our Dove MVP. |
+| Day 106 | Our Dove legal alpha | Cindy | Produce and share with supporters alpha drafts of the Support and Sponsor agreements. |
+| Day 107 | Our Dove alpha | Deginner | functionally complete alpha build of Our Dove app shared with top tier supporters |
+| Day 137 | Our Dove legal beta | Cindy | Produce check in to repos beta versions of the Support and Sponsor agreements. |
+| Day 138 | Our Dove beta | Deginner | functionally complete and free of significant bug build of Our Dove app shared with all supporters |
 | ------- | beta rewards dispersal | * | Provide assistance and setup for founding mentors and sponsors prior to launch. Deginner technical consultings are open for scheduling. |
-| 15/3/16 | Our Dove launch | Deginner | Public launch of MVP Our Dove app |
+| Day 166 | Our Dove launch | Deginner | Public launch of MVP Our Dove app |
 
 ### Stretch Development
 
