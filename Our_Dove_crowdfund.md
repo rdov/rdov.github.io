@@ -123,14 +123,14 @@ All are cumulative.
 
 | Item | Cost | Breakdown | Start Date |
 |------|------|-----------|---------------|
-| Our Dove corp setup | $1000| Not sure on jurisdiction or details yet | 1/10/15 |
-| Goanimate Subscription | $318| $159/mo is the best quality rate, but possibly only one month is needed | 1/10/15 |
-| Mockups| $800| In tasks or as a contest on [99designs](http://99designs.com) | 12/10/15 |
-| Voiceover pro | $1200| 6 minutes of audio at estimated $100/min. doubled for buffer | 14/10/15 |
-| Support and Sponsorship Agreements | $10,000| It is possible this could be significantly less, but excess will be used to make agreements more configurable by all parties. | 15/12/15 |
-| T Shirts | $5000| 500 T shirts at estimated cost of $5 production and $5 shipping each. | 1/2/16 |
-| MVP Development | $30,000 | 600 man-hours billed at expected average billing rate $50/h over the 4 month period following the successful completion of the campaign. | 15/12/15 |
-| Stretch Goal Development | $* | Expected average billing rate $50/h | 1/3/16 |
+| Our Dove corp setup | $1000| Not sure on jurisdiction or details yet | Day 1 |
+| Goanimate Subscription | $318| $159/mo is the best quality rate, but possibly only one month is needed | Day 1 |
+| Mockups| $800| In tasks or as a contest on [99designs](http://99designs.com) | Day 11 |
+| Voiceover pro | $1200| 6 minutes of audio at estimated $100/min. doubled for buffer | Day 15 |
+| Support and Sponsorship Agreements | $10,000| It is possible this could be significantly less, but excess will be used to make agreements more configurable by all parties. | Day 77 |
+| T Shirts | $5000| 500 T shirts at estimated cost of $5 production and $5 shipping each. | Day 122 |
+| MVP Development | $30,000 | 600 man-hours billed at expected average billing rate $50/h over the 4 month period following the successful completion of the campaign. | Day 77 |
+| Stretch Goal Development | $* | Expected average billing rate $50/h | Day 85 |
 
 ## Team
 
